@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "385644830792",
+    "project_id": "d82---dj-mixer-studio",
+    "storage_bucket": "d82---dj-mixer-studio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385644830792:android:f2e342d47f8ae7ea98b87d",
+        "android_client_info": {
+          "package_name": "com.audioeffect.djmixer.music.mixer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoaQohTJv4-ygZ3t8np45XHtLgsW4QA7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

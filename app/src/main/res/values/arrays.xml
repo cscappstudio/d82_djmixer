@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bits">
+        <item>16</item>
+        <item>8</item>
+    </array>
+    <array name="channel_count">
+        <item>2</item>
+        <item>1</item>
+    </array>
+    <array name="encodes">
+        <item>mp3</item>
+        <item>wav</item>
+        <item>ogg</item>
+        <item>flac</item>
+        <item>opus</item>
+        <item>aac</item>
+    </array>
+    <array name="sample_size">
+        <item>44100</item>
+        <item>22050</item>
+        <item>48000</item>
+    </array>
+</resources>

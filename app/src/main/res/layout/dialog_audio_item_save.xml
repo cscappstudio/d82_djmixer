@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_bg"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_save_recording"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="22dp"
+    android:paddingBottom="20dp">
+
+    <!-- Title: Saved -->
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/save_recording_title"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Text Input with Cyan Rounded Border and Clear Icon -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="@drawable/bg_dialog_recording_input"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="18dp">
+
+        <EditText
+            android:id="@+id/edittext"
+            android:tag="dialogEditText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:paddingStart="14dp"
+            android:paddingEnd="8dp"
+            android:singleLine="true"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textColorHint="#64748B"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif"
+            android:imeOptions="actionDone"
+            android:cursorVisible="true"
+            android:textCursorDrawable="@null" />
+
+        <ImageView
+            android:id="@+id/btn_clear_text"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_clear_circle_filled" />
+    </LinearLayout>
+
+    <!-- Action Buttons: Cancel and Save -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="end|center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:id="@+id/dialog_button_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cancel"
+            android:textColor="#22D3EE"
+            android:textSize="14.5sp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:id="@+id/dialog_button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:text="@string/save"
+            android:textColor="@color/white"
+            android:textSize="14.5sp"
+            android:fontFamily="sans-serif-medium"
+            android:paddingStart="26dp"
+            android:paddingEnd="26dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/btn_save_recording_gradient" />
+    </LinearLayout>
+
+</LinearLayout>

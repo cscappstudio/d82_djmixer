@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash & Startup -->
+    <string name="splash_action_contains_ads">This action can contain advertising</string>
+    <string name="loading_ads">Loading Ads...</string>
+
+    <!-- Language Flow -->
+    <string name="language">Language</string>
+    <string name="toast_select_language_continue">Please select a language to continue</string>
+    <string name="language_english">English</string>
+    <string name="language_french">Français</string>
+    <string name="language_german">Deutsch</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_indonesian">Bahasa Indonesia</string>
+    <string name="language_portuguese">Português</string>
+    <string name="language_spanish">Español</string>
+    <string name="language_vietnamese">Tiếng Việt</string>
+    <string name="language_japanese">日本語</string>
+    <string name="language_bengali">বাংলা</string>
+    <string name="language_filipino">Filipino</string>
+    <string name="language_korean">한국어</string>
+    <string name="language_italian">Italiano</string>
+    <string name="language_chinese">中文</string>
+    <string name="language_russian">Русский</string>
+    <string name="language_arabic">العربية</string>
+    <string name="language_thai">ไทย</string>
+    <string name="language_turkish">Türkçe</string>
+
+    <!-- Onboarding Flow for DJ Mixer -->
+    <string name="intro_slide_1_title">Your Music, Your Mix</string>
+    <string name="intro_slide_1_des">Turn your favorite tracks into unique mixes and create your own sound.</string>
+    <string name="intro_slide_2_title">Mix Like a Pro</string>
+    <string name="intro_slide_2_des">Blend tracks, adjust beats, and fine-tune every sound with intuitive DJ controls.</string>
+    <string name="intro_slide_3_title">Add Your Signature Sound</string>
+    <string name="intro_slide_3_des">Explore creative sound effects, shape your beats, and make every mix stand out.</string>
+    <string name="intro_slide_4_title">Feel the Beat. Own the Mix.</string>
+    <string name="intro_slide_4_des">Bring your music to life and start your DJ journey anytime, anywhere.</string>
+    <string name="intro_next">Next</string>
+    <string name="get_started">Get started</string>
+</resources>

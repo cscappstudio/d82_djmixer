@@ -1,0 +1,549 @@
+{
+  "channelNames": [
+    "Drums",
+    "Keys",
+    "Guitar",
+    "Lead",
+    "Fx",
+    "Bass"
+  ],
+  "tutorials": [
+    {
+      "index": 0,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            1
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            41
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            25
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            17
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            9
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 1,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            2
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            9
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            18
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            26
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            42
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            10
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 2,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            3
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            12
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            28
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            43
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            26
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            11
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            19
+          ]
+        },
+        {
+          "duration": 8000,
+          "keys": [
+            3
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 3,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            27
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            2
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            44
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            20
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            25
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            17
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            28
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            4
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 4,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            4,
+            41
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            28
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            3,
+            19
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            44
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            2,
+            18
+          ]
+        },
+        {
+          "duration": 8000,
+          "keys": [
+            27
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            43
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 5,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            1,
+            41
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            28
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            26
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            43,
+            25
+          ]
+        },
+        {
+          "duration": 8000,
+          "keys": [
+            3,
+            27
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            44
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 6,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            1,
+            42
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            26
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            43
+          ]
+        },
+        {
+          "duration": 8000,
+          "keys": [
+            1,
+            42
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            12,
+            28
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            43,
+            27
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            2
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 7,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            41,
+            19
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            3
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            20
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            26
+          ]
+        },
+        {
+          "duration": 8000,
+          "keys": [
+            18,
+            27
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            10
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            5,
+            9
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 8,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            1,
+            10
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            20
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            41
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            12
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            1,
+            19
+          ]
+        },
+        {
+          "duration": 8000,
+          "keys": [
+            2,
+            11
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            9
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            18
+          ]
+        },
+        {
+          "duration": 2000,
+          "keys": [
+            2
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "index": 9,
+      "rhythms": [
+        {
+          "duration": 4000,
+          "keys": [
+            5,
+            42
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            21
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            10,
+            19
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            12
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            18
+          ]
+        },
+        {
+          "duration": 2000,
+          "keys": [
+            2
+          ]
+        },
+        {
+          "duration": 2000,
+          "keys": [
+            5,
+            17
+          ]
+        },
+        {
+          "duration": 8000,
+          "keys": [
+            11
+          ]
+        },
+        {
+          "duration": 4000,
+          "keys": [
+            9
+          ]
+        },
+        {
+          "duration": 2000,
+          "keys": [
+            4
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    }
+  ]
+}

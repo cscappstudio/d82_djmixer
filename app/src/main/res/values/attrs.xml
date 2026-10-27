@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OutlineTextView">
+        <attr name="outlineColor" format="color" />
+        <attr name="outlineWidth" format="dimension" />
+    </declare-styleable>
+    <attr name="TapArrowCorners" format="dimension">
+    </attr>
+    <attr name="TapArrowSpacing" format="dimension">
+    </attr>
+    <attr name="TapArrowTint" format="color">
+    </attr>
+    <attr name="TapCorners" format="dimension">
+    </attr>
+    <attr name="TapMaskColor" format="color">
+    </attr>
+    <attr name="TapReservedSpacing" format="dimension">
+    </attr>
+    <attr name="TapStrokeAnimationDuration" format="integer">
+    </attr>
+    <attr name="TapStrokeColor" format="color">
+    </attr>
+    <attr name="TapStrokeWidth" format="dimension">
+    </attr>
+    <attr name="TapTextColor" format="color">
+    </attr>
+    <attr name="TapTextSize" format="dimension">
+    </attr>
+    <attr name="bpmLineNormalColor" format="color">
+    </attr>
+    <attr name="bpmLineSelectedColor" format="color">
+    </attr>
+    <attr name="bpmLineSpacing" format="dimension">
+    </attr>
+    <attr name="hideRectWhenNotShine" format="boolean">
+    </attr>
+    <attr name="rotateStepPlugPadding" format="reference|dimension">
+    </attr>
+    <attr name="rotateStepProgressWidth" format="reference|dimension">
+    </attr>
+    <attr name="seekAdsorptionProgress" format="reference|integer">
+    </attr>
+    <attr name="seekAdsorptionRadius" format="reference|integer">
+    </attr>
+    <attr name="seekAllowClick" format="boolean">
+    </attr>
+    <attr name="seekProgressBgColor" format="reference|color">
+    </attr>
+    <attr name="seekProgressColor" format="reference|color">
+    </attr>
+    <attr name="seekProgressColorLeftBottom" format="reference|color">
+    </attr>
+    <attr name="seekProgressColorRightTop" format="reference|color">
+    </attr>
+    <attr name="seekProgressSize" format="reference|dimension">
+    </attr>
+    <attr name="seekProgressThumb" format="reference">
+    </attr>
+    <attr name="seekScaleLineColor" format="reference|color">
+    </attr>
+    <attr name="seekScaleLinePressedColor" format="reference|color">
+    </attr>
+    <attr name="seekScaleLineShortColor" format="reference|color">
+    </attr>
+    <attr name="seekScaleLineShortPressedColor" format="reference|color">
+    </attr>
+    <attr name="seekScaleLineSpacing" format="reference|dimension">
+    </attr>
+    <attr name="seekScaleLineWidth" format="reference|dimension">
+    </attr>
+    <attr name="seekScaleNum" format="integer">
+    </attr>
+    <attr name="seekSymmetryMode" format="boolean">
+    </attr>
+    <attr name="seekTextSize" format="reference|dimension">
+    </attr>
+    <attr name="seekThumbEdgeAlign" format="boolean">
+    </attr>
+    <attr name="seekThumbEdgeShadowRatio" format="float">
+    </attr>
+    <attr name="seekVerticalMode" format="boolean">
+    </attr>
+    <attr name="shineImage" format="boolean">
+    </attr>
+    <attr name="shineRectDrawable" format="reference">
+    </attr>
+    <attr name="squareFactory">
+        <enum name="adjustWidth" value="0" />
+        <enum name="adjustHeight" value="1" />
+        <enum name="withMin" value="2" />
+        <enum name="none" value="3" />
+    </attr>
+    <attr name="squareRatio" format="reference|string">
+    </attr>
+    <attr name="textAllCaps" format="reference|boolean">
+    </attr>
+    <attr name="visualizer_gradient_colors" format="reference|string">
+    </attr>
+    <attr name="visualizer_line_width" format="reference|dimension">
+    </attr>
+    <attr name="visualizer_linear_color" format="reference|color">
+    </attr>
+    <attr name="visualizer_overlay_color" format="reference|color">
+    </attr>
+    <attr name="visualizer_row" format="reference|integer">
+    </attr>
+    <attr name="wavScaleWidth" format="reference|dimension">
+    </attr>
+    <attr name="wavTopDirection" format="boolean">
+    </attr>
+    <attr name="wavWaveLineColor" format="reference|color">
+    </attr>
+    <attr name="waveWaveLineColor" format="reference|color">
+    </attr>
+    <attr name="rotateStep" format="reference|integer">
+    </attr>
+    <attr name="rotateStepAdsorptionProgress" format="reference|integer">
+    </attr>
+    <attr name="rotateStepAdsorptionRadius" format="reference|integer">
+    </attr>
+    <attr name="rotateStepBackgroundColor" format="color">
+    </attr>
+    <attr name="rotateStepDegreesRange" format="reference|integer">
+    </attr>
+    <attr name="rotateStepDisableColor" format="color">
+    </attr>
+    <attr name="rotateStepExtraGraduationDrawable" format="reference">
+    </attr>
+    <attr name="rotateStepExtraGraduationSize" format="reference|dimension">
+    </attr>
+    <attr name="rotateStepGraduationCount" format="reference|integer">
+    </attr>
+    <attr name="rotateStepGraduationStyle">
+        <enum name="dot" value="0" />
+        <enum name="line" value="1" />
+        <enum name="lineCenter" value="2" />
+    </attr>
+    <attr name="rotateStepIndicatorDrawable" format="reference">
+    </attr>
+    <attr name="rotateStepIndicatorOverlayDrawable" format="reference">
+    </attr>
+    <attr name="rotateStepMainGraduationDrawable" format="reference">
+    </attr>
+    <attr name="rotateStepMax" format="reference|integer">
+    </attr>
+    <attr name="rotateStepPlugDrawable" format="reference">
+    </attr>
+    <attr name="rotateStepProgress" format="reference|integer">
+    </attr>
+    <attr name="rotateStepProgressColor" format="color">
+    </attr>
+
+    <declare-styleable name="RotateStepBar">
+        <attr name="rotateStep" />
+        <attr name="rotateStepAdsorptionProgress" />
+        <attr name="rotateStepAdsorptionRadius" />
+        <attr name="rotateStepBackgroundColor" />
+        <attr name="rotateStepDegreesRange" />
+        <attr name="rotateStepDisableColor" />
+        <attr name="rotateStepExtraGraduationDrawable" />
+        <attr name="rotateStepExtraGraduationSize" />
+        <attr name="rotateStepGraduationCount" />
+        <attr name="rotateStepGraduationStyle" />
+        <attr name="rotateStepIndicatorDrawable" />
+        <attr name="rotateStepIndicatorOverlayDrawable" />
+        <attr name="rotateStepMainGraduationDrawable" />
+        <attr name="rotateStepMax" />
+        <attr name="rotateStepPlugDrawable" />
+        <attr name="rotateStepPlugPadding" />
+        <attr name="rotateStepProgress" />
+        <attr name="rotateStepProgressColor" />
+        <attr name="rotateStepProgressWidth" />
+    </declare-styleable>
+
+    <attr name="bpmLineErrorColor" format="color" />
+
+    <declare-styleable name="BpmSettingPreviewView">
+        <attr name="bpmLineNormalColor" />
+        <attr name="bpmLineSelectedColor" />
+        <attr name="bpmLineErrorColor" />
+        <attr name="bpmLineSpacing" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSeekBar">
+        <attr name="seekVerticalMode" />
+        <attr name="seekSymmetryMode" />
+        <attr name="seekAllowClick" />
+        <attr name="seekProgressBgColor" />
+        <attr name="seekProgressColor" />
+        <attr name="seekProgressColorLeftBottom" />
+        <attr name="seekProgressColorRightTop" />
+        <attr name="seekProgressThumb" />
+        <attr name="seekAdsorptionProgress" />
+        <attr name="seekAdsorptionRadius" />
+        <attr name="seekProgressSize" />
+        <attr name="seekScaleNum" />
+        <attr name="seekScaleLineColor" />
+        <attr name="seekScaleLineShortColor" />
+        <attr name="seekScaleLineSpacing" />
+        <attr name="seekScaleLineWidth" />
+        <attr name="seekTextSize" />
+        <attr name="seekThumbEdgeAlign" />
+        <attr name="seekThumbEdgeShadowRatio" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveView">
+        <attr name="wavScaleWidth" />
+        <attr name="wavTopDirection" />
+        <attr name="wavWaveLineColor" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveProgressView">
+        <attr name="waveWaveLineColor" />
+    </declare-styleable>
+
+    <attr name="visualizer_column" format="integer" />
+    <attr name="visualizer_default_color" format="color" />
+    <attr name="visualizer_space_factor_h" format="float" />
+    <attr name="visualizer_space_factor_v" format="float" />
+
+    <declare-styleable name="VisualizerView">
+        <attr name="visualizer_column" />
+        <attr name="visualizer_default_color" />
+        <attr name="visualizer_gradient_colors" />
+        <attr name="visualizer_line_width" />
+        <attr name="visualizer_linear_color" />
+        <attr name="visualizer_overlay_color" />
+        <attr name="visualizer_row" />
+        <attr name="visualizer_space_factor_h" />
+        <attr name="visualizer_space_factor_v" />
+    </declare-styleable>
+
+    <attr name="corner_radius" format="reference|dimension" />
+    <attr name="corner_radiusBottomLeft" format="reference|dimension" />
+    <attr name="corner_radiusBottomRight" format="reference|dimension" />
+    <attr name="corner_radiusTopLeft" format="reference|dimension" />
+    <attr name="corner_radiusTopRight" format="reference|dimension" />
+
+    <declare-styleable name="CornerFrameLayout">
+        <attr name="corner_radius" />
+        <attr name="corner_radiusBottomLeft" />
+        <attr name="corner_radiusBottomRight" />
+        <attr name="corner_radiusTopLeft" />
+        <attr name="corner_radiusTopRight" />
+    </declare-styleable>
+</resources>

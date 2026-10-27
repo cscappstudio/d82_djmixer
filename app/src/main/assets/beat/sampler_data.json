@@ -1,0 +1,101 @@
+{
+  "server": "https://djmusicres.ijoysoftconnect.com/djmixer/beat/",
+  "samplers": [
+    {
+      "id": 70001,
+      "name": "Shadow Dub",
+      "category": "Dubstep",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 11
+    },
+    {
+      "id": 80001,
+      "name": "Nano Loop",
+      "category": "Electronic",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 10
+    },
+    {
+      "id": 10001,
+      "name": "Street Beat",
+      "category": "Hip Hop",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 2
+    },
+    {
+      "id": 20001,
+      "name": "Ghost Bass",
+      "category": "Trap",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 1
+    },
+    {
+      "id": 30001,
+      "name": "Synth Wave",
+      "category": "EDM",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 12
+    },
+    {
+      "id": 40001,
+      "name": "Tunnel Vox",
+      "category": "Techno",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 6
+    },
+    {
+      "id": 50001,
+      "name": "House Drum",
+      "category": "House",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 7
+    },
+    {
+      "id": 60001,
+      "name": "Dark Roll",
+      "category": "Drum and Bass",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 5
+    },
+    {
+      "id": 30002,
+      "name": "Club Glow",
+      "category": "EDM",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 8
+    },
+    {
+      "id": 10002,
+      "name": "Urban Snap",
+      "category": "Hip Hop",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 9
+    },
+    {
+      "id": 50002,
+      "name": "Swing Kit",
+      "category": "House",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 3
+    },
+    {
+      "id": 30003,
+      "name": "Party Mix",
+      "category": "EDM",
+      "bpm": 120.0,
+      "locked": true,
+      "sort": 4
+    }
+  ]
+}

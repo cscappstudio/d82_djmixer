@@ -1,0 +1,545 @@
+{
+  "server": "https://djmusicres.ijoysoftconnect.com/djmixer/audio/",
+  "audios": [
+    {
+      "id": 10011,
+      "title": "INSPIRASI",
+      "artist": "Brizick90",
+      "category": 3,
+      "duration": 86000,
+      "locked": true,
+      "sort": 1
+    },
+    {
+      "id": 10012,
+      "title": "Alpha",
+      "artist": "geovanebruny",
+      "category": 3,
+      "duration": 187000,
+      "locked": true,
+      "sort": 2
+    },
+    {
+      "id": 10013,
+      "title": "Electric Rituals",
+      "artist": "Andrewbali",
+      "category": 3,
+      "duration": 164000,
+      "locked": false,
+      "sort": 3
+    },
+    {
+      "id": 10014,
+      "title": "Shamanic House",
+      "artist": "NNChannel",
+      "category": 3,
+      "duration": 165000,
+      "locked": false,
+      "sort": 4
+    },
+    {
+      "id": 10015,
+      "title": "Deep house instrumental",
+      "artist": "arnaud136",
+      "category": 3,
+      "duration": 231000,
+      "locked": false,
+      "sort": 5
+    },
+    {
+      "id": 10016,
+      "title": "Beauty Chill",
+      "artist": "lvymusic",
+      "category": 3,
+      "duration": 122000,
+      "locked": false,
+      "sort": 6
+    },
+    {
+      "id": 10017,
+      "title": "Hollywood Block",
+      "artist": "SmolBoiProductions",
+      "category": 3,
+      "duration": 150000,
+      "locked": false,
+      "sort": 7
+    },
+    {
+      "id": 10018,
+      "title": "Town",
+      "artist": "BeCorbal",
+      "category": 3,
+      "duration": 182000,
+      "locked": false,
+      "sort": 8
+    },
+    {
+      "id": 10019,
+      "title": "Double Overhead",
+      "artist": "ItsWatR",
+      "category": 3,
+      "duration": 210000,
+      "locked": false,
+      "sort": 9
+    },
+    {
+      "id": 10020,
+      "title": "Let It Go",
+      "artist": "ItsWatR",
+      "category": 3,
+      "duration": 134000,
+      "locked": false,
+      "sort": 10
+    },
+    {
+      "id": 30011,
+      "title": "Nep Hop",
+      "artist": "khemrajdotin",
+      "category": 4,
+      "duration": 148000,
+      "locked": true,
+      "sort": 1
+    },
+    {
+      "id": 30012,
+      "title": "Freedom",
+      "artist": "music for video",
+      "category": 4,
+      "duration": 140000,
+      "locked": true,
+      "sort": 2
+    },
+    {
+      "id": 30013,
+      "title": "Baby Mandala",
+      "artist": "prazkhanal",
+      "category": 4,
+      "duration": 191000,
+      "locked": false,
+      "sort": 3
+    },
+    {
+      "id": 30014,
+      "title": "The Dark Trap",
+      "artist": "OctoSound",
+      "category": 4,
+      "duration": 139000,
+      "locked": false,
+      "sort": 4
+    },
+    {
+      "id": 30015,
+      "title": "Choir",
+      "artist": "YellowBirdBeats",
+      "category": 4,
+      "duration": 168000,
+      "locked": false,
+      "sort": 5
+    },
+    {
+      "id": 30016,
+      "title": "Memphis Trap",
+      "artist": "Memphis-Trap",
+      "category": 4,
+      "duration": 179000,
+      "locked": false,
+      "sort": 6
+    },
+    {
+      "id": 30017,
+      "title": "Panda",
+      "artist": "prazkhanal",
+      "category": 4,
+      "duration": 160000,
+      "locked": false,
+      "sort": 7
+    },
+    {
+      "id": 30018,
+      "title": "Trap beat",
+      "artist": "beatwaves",
+      "category": 4,
+      "duration": 148000,
+      "locked": false,
+      "sort": 8
+    },
+    {
+      "id": 30019,
+      "title": "Melodic trap beat",
+      "artist": "beatwaves",
+      "category": 4,
+      "duration": 168000,
+      "locked": false,
+      "sort": 9
+    },
+    {
+      "id": 30006,
+      "title": "Victory",
+      "artist": "prazkhanal",
+      "category": 4,
+      "duration": 136000,
+      "locked": false,
+      "sort": 10
+    },
+    {
+      "id": 50001,
+      "title": "Holly Bolly",
+      "artist": "Storm Library",
+      "category": 2,
+      "duration": 240000,
+      "locked": false,
+      "sort": 5
+    },
+    {
+      "id": 50002,
+      "title": "Heal You",
+      "artist": "prazkhanal",
+      "category": 2,
+      "duration": 154000,
+      "locked": false,
+      "sort": 6
+    },
+    {
+      "id": 50003,
+      "title": "Freccero Dubba De Dub",
+      "artist": "House",
+      "category": 2,
+      "duration": 189000,
+      "locked": false,
+      "sort": 7
+    },
+    {
+      "id": 50004,
+      "title": "Shatter",
+      "artist": "House",
+      "category": 2,
+      "duration": 166000,
+      "locked": false,
+      "sort": 8
+    },
+    {
+      "id": 50005,
+      "title": "Mysteries",
+      "artist": "prazkhanal",
+      "category": 2,
+      "duration": 244000,
+      "locked": false,
+      "sort": 9
+    },
+    {
+      "id": 50006,
+      "title": "House",
+      "artist": "AlexGrohl",
+      "category": 2,
+      "duration": 114000,
+      "locked": true,
+      "sort": 1
+    },
+    {
+      "id": 50007,
+      "title": "Real Estate",
+      "artist": "DELOSound",
+      "category": 2,
+      "duration": 192000,
+      "locked": false,
+      "sort": 3
+    },
+    {
+      "id": 50008,
+      "title": "Slap house",
+      "artist": "ENheee",
+      "category": 2,
+      "duration": 157000,
+      "locked": false,
+      "sort": 4
+    },
+    {
+      "id": 50009,
+      "title": "Exxplosion",
+      "artist": "Enrico Dering",
+      "category": 2,
+      "duration": 116000,
+      "locked": true,
+      "sort": 2
+    },
+    {
+      "id": 50010,
+      "title": "house trance",
+      "artist": "GINODADA",
+      "category": 2,
+      "duration": 129000,
+      "locked": false,
+      "sort": 10
+    },
+    {
+      "id": 90007,
+      "title": "Hip Hop Fun",
+      "artist": "Playsound",
+      "category": 10,
+      "duration": 185000,
+      "locked": true,
+      "sort": 1
+    },
+    {
+      "id": 90008,
+      "title": "Emotional Summer",
+      "artist": "Diamond Tunes",
+      "category": 10,
+      "duration": 104000,
+      "locked": true,
+      "sort": 2
+    },
+    {
+      "id": 90009,
+      "title": "Experimental Cinematic",
+      "artist": "Rockot",
+      "category": 10,
+      "duration": 140000,
+      "locked": false,
+      "sort": 3
+    },
+    {
+      "id": 90010,
+      "title": "Snow",
+      "artist": "Dubdown",
+      "category": 10,
+      "duration": 145000,
+      "locked": false,
+      "sort": 4
+    },
+    {
+      "id": 90011,
+      "title": "Cool Dynamic Moves",
+      "artist": "Pumpupthemind",
+      "category": 10,
+      "duration": 73000,
+      "locked": false,
+      "sort": 5
+    },
+    {
+      "id": 90012,
+      "title": "Energetic",
+      "artist": "Skilsel",
+      "category": 10,
+      "duration": 114000,
+      "locked": false,
+      "sort": 6
+    },
+    {
+      "id": 90013,
+      "title": "Invasion",
+      "artist": "AleksandrKoshylev90",
+      "category": 10,
+      "duration": 148000,
+      "locked": false,
+      "sort": 7
+    },
+    {
+      "id": 90014,
+      "title": "The heist",
+      "artist": "BEATSBYMICKVIE",
+      "category": 10,
+      "duration": 253000,
+      "locked": false,
+      "sort": 8
+    },
+    {
+      "id": 90015,
+      "title": "King of the Slums",
+      "artist": "FreeMusicLab",
+      "category": 10,
+      "duration": 166000,
+      "locked": false,
+      "sort": 9
+    },
+    {
+      "id": 90016,
+      "title": "Looks Like Money",
+      "artist": "FreeMusicLab",
+      "category": 10,
+      "duration": 127000,
+      "locked": false,
+      "sort": 10
+    },
+    {
+      "id": 110001,
+      "title": "ID2",
+      "artist": "ByteStory",
+      "category": 11,
+      "duration": 51000,
+      "locked": true,
+      "sort": 1
+    },
+    {
+      "id": 110002,
+      "title": "Team",
+      "artist": "JDonovan02",
+      "category": 11,
+      "duration": 200000,
+      "locked": true,
+      "sort": 2
+    },
+    {
+      "id": 110003,
+      "title": "Inspiring Future Electronic",
+      "artist": "penguinmusic",
+      "category": 11,
+      "duration": 98000,
+      "locked": false,
+      "sort": 3
+    },
+    {
+      "id": 110004,
+      "title": "Shimmerwave",
+      "artist": "NRA-LAB",
+      "category": 11,
+      "duration": 133000,
+      "locked": false,
+      "sort": 4
+    },
+    {
+      "id": 110005,
+      "title": "Future bass beat",
+      "artist": "Playsound",
+      "category": 11,
+      "duration": 70000,
+      "locked": false,
+      "sort": 5
+    },
+    {
+      "id": 110006,
+      "title": "Embrace",
+      "artist": "ItsWatR",
+      "category": 11,
+      "duration": 180000,
+      "locked": false,
+      "sort": 6
+    },
+    {
+      "id": 110007,
+      "title": "The Paranormal Is Real",
+      "artist": "LeonellCassio",
+      "category": 11,
+      "duration": 168000,
+      "locked": false,
+      "sort": 7
+    },
+    {
+      "id": 110008,
+      "title": "Upbeat Guitar",
+      "artist": "Lidérc",
+      "category": 11,
+      "duration": 122000,
+      "locked": false,
+      "sort": 8
+    },
+    {
+      "id": 110009,
+      "title": "Summer",
+      "artist": "ArtIss22",
+      "category": 11,
+      "duration": 90000,
+      "locked": false,
+      "sort": 9
+    },
+    {
+      "id": 110010,
+      "title": "Ever Flowing",
+      "artist": "ItsWatR",
+      "category": 11,
+      "duration": 181000,
+      "locked": false,
+      "sort": 10
+    },
+    {
+      "id": 120001,
+      "title": "Tokyo Cafe",
+      "artist": "TVARI",
+      "category": 12,
+      "duration": 153000,
+      "locked": true,
+      "sort": 1
+    },
+    {
+      "id": 120002,
+      "title": "Sedative",
+      "artist": "music for video",
+      "category": 12,
+      "duration": 181000,
+      "locked": true,
+      "sort": 2
+    },
+    {
+      "id": 120003,
+      "title": "Morning Garden",
+      "artist": "folk acoustic",
+      "category": 12,
+      "duration": 233000,
+      "locked": false,
+      "sort": 3
+    },
+    {
+      "id": 120004,
+      "title": "Into The Night",
+      "artist": "prazkhanal",
+      "category": 12,
+      "duration": 141000,
+      "locked": false,
+      "sort": 4
+    },
+    {
+      "id": 120005,
+      "title": "Once In Paris",
+      "artist": "Pumpupthemind",
+      "category": 12,
+      "duration": 132000,
+      "locked": false,
+      "sort": 5
+    },
+    {
+      "id": 120006,
+      "title": "For Her",
+      "artist": "Lidérc",
+      "category": 12,
+      "duration": 133000,
+      "locked": false,
+      "sort": 6
+    },
+    {
+      "id": 120007,
+      "title": "Fluid",
+      "artist": "ItsWatR",
+      "category": 12,
+      "duration": 162000,
+      "locked": false,
+      "sort": 7
+    },
+    {
+      "id": 120008,
+      "title": "Cinematic Chillhop Main",
+      "artist": "Good b Music",
+      "category": 12,
+      "duration": 183000,
+      "locked": false,
+      "sort": 8
+    },
+    {
+      "id": 120009,
+      "title": "Relaxing Chill Background",
+      "artist": "JoyInSound",
+      "category": 12,
+      "duration": 139000,
+      "locked": false,
+      "sort": 9
+    },
+    {
+      "id": 120010,
+      "title": "Whispered Dreams",
+      "artist": "lofidreams99",
+      "category": 12,
+      "duration": 169000,
+      "locked": false,
+      "sort": 10
+    }
+  ]
+}

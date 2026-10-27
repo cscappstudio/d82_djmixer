@@ -1,0 +1,37 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.audioeffect.djmixer.music.mixer",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 1,
+      "versionName": "0.0.1",
+      "outputFile": "D82_DJMixer_v0.0.1_c1_27102026_release.apk"
+    }
+  ],
+  "elementType": "File",
+  "baselineProfiles": [
+    {
+      "minApi": 28,
+      "maxApi": 30,
+      "baselineProfiles": [
+        "baselineProfiles/1/D82_DJMixer_v0.0.1_c1_27102026_release.dm"
+      ]
+    },
+    {
+      "minApi": 31,
+      "maxApi": 2147483647,
+      "baselineProfiles": [
+        "baselineProfiles/0/D82_DJMixer_v0.0.1_c1_27102026_release.dm"
+      ]
+    }
+  ],
+  "minSdkVersionForDexing": 24
+}

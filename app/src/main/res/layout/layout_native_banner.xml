@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:background="#1B1D22">
+
+    <!-- Shimmer loading placeholder -->
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        app:shimmer_auto_start="true">
+
+        <include layout="@layout/ads_shimmer_native_banner" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <!-- Native Ad View -->
+    <com.google.android.libraries.ads.mobile.sdk.nativead.NativeAdView
+        android:id="@+id/native_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:id="@+id/ad_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:visibility="gone">
+
+            <!-- Invisible MediaView placeholder for SDK compatibility -->
+            <com.google.android.libraries.ads.mobile.sdk.nativead.MediaView
+                android:id="@+id/media_view"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone" />
+
+            <!-- App Icon -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/imvCardView"
+                android:layout_width="38dp"
+                android:layout_height="38dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/transparent">
+
+                <ImageView
+                    android:id="@+id/ad_app_icon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:contentDescription="@null" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- Text Column: Headline + Badge + Body -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <!-- Ad Notification Badge -->
+                    <TextView
+                        android:id="@+id/ad_notification_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_ad_badge"
+                        android:gravity="center"
+                        android:paddingHorizontal="4dp"
+                        android:paddingVertical="1dp"
+                        android:text="Ad"
+                        android:textColor="@color/app_main"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+                    <!-- Ad Headline -->
+                    <TextView
+                        android:id="@+id/ad_headline"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="6dp"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:maxLines="1"
+                        android:textColor="@color/white"
+                        android:textSize="12.5sp"
+                        android:textStyle="bold"
+                        tools:text="App Sponsor Headline" />
+                </LinearLayout>
+
+                <!-- Ad Body -->
+                <TextView
+                    android:id="@+id/ad_body"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="#8E95A5"
+                    android:textSize="10.5sp"
+                    tools:text="Discover exciting content today." />
+            </LinearLayout>
+
+            <!-- Call To Action Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ad_call_to_action"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:minWidth="72dp"
+                android:paddingHorizontal="14dp"
+                android:background="@drawable/bg_button_ads"
+                android:elevation="0dp"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="Install"
+                android:textColor="@color/white"
+                android:textSize="11.5sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </com.google.android.libraries.ads.mobile.sdk.nativead.NativeAdView>
+
+</FrameLayout>

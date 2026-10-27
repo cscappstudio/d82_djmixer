@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.ijoysoft.mix.view.BrokenWordTextView
+        android:id="@+id/samples_1"
+        app:layout_constraintBottom_toTopOf="@+id/samples_3"
+        app:layout_constraintEnd_toStartOf="@+id/samples_2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/SampleItemStyle"/>
+    <com.ijoysoft.mix.view.BrokenWordTextView
+        android:id="@+id/samples_2"
+        android:layout_marginStart="@dimen/sample_item_margin"
+        app:layout_constraintBottom_toTopOf="@+id/samples_4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/samples_1"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/SampleItemStyle"/>
+    <com.ijoysoft.mix.view.BrokenWordTextView
+        android:id="@+id/samples_3"
+        android:layout_marginTop="@dimen/sample_item_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/samples_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/samples_1"
+        style="@style/SampleItemStyle"/>
+    <com.ijoysoft.mix.view.BrokenWordTextView
+        android:id="@+id/samples_4"
+        android:layout_marginTop="@dimen/sample_item_margin"
+        android:layout_marginStart="@dimen/sample_item_margin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/samples_3"
+        app:layout_constraintTop_toBottomOf="@+id/samples_2"
+        style="@style/SampleItemStyle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ijoysoft.music.view.square.CornerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ds_pro_layout"
+    android:background="@drawable/ds_pro_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:corner_radius="16dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingLeft="32dp"
+        android:paddingTop="6dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingHorizontal="32dp"
+        android:paddingVertical="6dp">
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:textSize="@dimen/ds_title_size"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DJ Music Mixer"
+                android:singleLine="true"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/ds_pro_icon"
+                android:layout_width="52dp"
+                android:layout_height="20dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="3dp"
+                app:srcCompat="@drawable/ds_pro"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <include layout="@layout/dialog_main_settings_pro_introduce_layout"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:textSize="@dimen/ds_text_size"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:id="@+id/ds_remove_ads"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/ds_remove_ads_height"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="4dp"
+            android:text="@string/become_pro"
+            android:singleLine="true"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</com.ijoysoft.music.view.square.CornerFrameLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <selector>
+            <item android:state_pressed="true">
+                <layer-list>
+                    <item android:drawable="@drawable/cues_bg_5_selected"/>
+                    <item>
+                        <shape android:shape="rectangle">
+                            <corners android:radius="@dimen/cues_item_overlay_radius"/>
+                            <solid android:color="@color/btn_pressed_overlay_color"/>
+                        </shape>
+                    </item>
+                </layer-list>
+            </item>
+            <item android:drawable="@drawable/cues_bg_5_selected"/>
+        </selector>
+    </item>
+    <item android:state_selected="false">
+        <selector>
+            <item
+                android:state_enabled="false"
+                android:drawable="@drawable/cues_bg_disable"/>
+            <item
+                android:state_selected="true"
+                android:drawable="@drawable/cues_bg_5_selected"/>
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/cues_bg_5_selected"/>
+            <item android:drawable="@drawable/cues_bg_5"/>
+        </selector>
+    </item>
+</selector>

@@ -1,0 +1,446 @@
+{
+  "server": "https://djmusicres.ijoysoftconnect.com/djmixer/drumpad/",
+  "categories": [
+    {
+      "name": "Trap",
+      "sort": 1,
+      "groups": [
+        {
+          "id": 70001,
+          "name": "Dark Trap",
+          "author": "Trap",
+          "locked": false,
+          "sort": 7
+        },
+        {
+          "id": 70002,
+          "name": "Echo Trap",
+          "author": "Trap",
+          "locked": false,
+          "sort": 4
+        },
+        {
+          "id": 70003,
+          "name": "Fast Track",
+          "author": "Trap",
+          "locked": false,
+          "sort": 8
+        },
+        {
+          "id": 70004,
+          "name": "Mirage",
+          "author": "Trap",
+          "locked": false,
+          "sort": 3
+        },
+        {
+          "id": 70005,
+          "name": "Neon Nights",
+          "author": "Trap",
+          "locked": true,
+          "sort": 2
+        },
+        {
+          "id": 70006,
+          "name": "Trap Euphoria",
+          "author": "Trap",
+          "locked": false,
+          "sort": 5
+        },
+        {
+          "id": 70007,
+          "name": "Trap Machine",
+          "author": "Tarp",
+          "locked": false,
+          "sort": 6
+        },
+        {
+          "id": 70008,
+          "name": "Urban Rhythm",
+          "author": "Trap",
+          "locked": true,
+          "sort": 1
+        }
+      ]
+    },
+    {
+      "name": "Hip Hop",
+      "sort": 2,
+      "groups": [
+        {
+          "id": 40001,
+          "name": "Bass & Bars",
+          "author": "Hip Hop",
+          "locked": false,
+          "sort": 8
+        },
+        {
+          "id": 40002,
+          "name": "HipHop Horizon",
+          "author": "Hip Hop",
+          "locked": false,
+          "sort": 7
+        },
+        {
+          "id": 40003,
+          "name": "Lyrical Legacy",
+          "author": "Hip Hop",
+          "locked": false,
+          "sort": 6
+        },
+        {
+          "id": 40004,
+          "name": "Rhyme Rock",
+          "author": "Hip Hop",
+          "locked": true,
+          "sort": 1
+        },
+        {
+          "id": 40005,
+          "name": "Rhythm & Rhyme",
+          "author": "Hip Hop",
+          "locked": false,
+          "sort": 5
+        },
+        {
+          "id": 40006,
+          "name": "Rhythm Revolution",
+          "author": "Hip Hop",
+          "locked": false,
+          "sort": 4
+        },
+        {
+          "id": 40007,
+          "name": "Soulful Streets",
+          "author": "Hip Hop",
+          "locked": true,
+          "sort": 2
+        },
+        {
+          "id": 40008,
+          "name": "Tranquil Chaos",
+          "author": "Hip Hop",
+          "locked": false,
+          "sort": 3
+        }
+      ]
+    },
+    {
+      "name": "EDM",
+      "sort": 3,
+      "groups": [
+        {
+          "id": 20001,
+          "name": "Edm Evolution",
+          "author": "EDM",
+          "locked": true,
+          "sort": 2
+        },
+        {
+          "id": 20002,
+          "name": "Electric Dream",
+          "author": "EDM",
+          "locked": false,
+          "sort": 4
+        },
+        {
+          "id": 20003,
+          "name": "Fusion",
+          "author": "EDM",
+          "locked": false,
+          "sort": 8
+        },
+        {
+          "id": 20004,
+          "name": "Purple Clouds",
+          "author": "EDM",
+          "locked": false,
+          "sort": 7
+        },
+        {
+          "id": 20005,
+          "name": "Rhythm Wave",
+          "author": "EDM",
+          "locked": false,
+          "sort": 6
+        },
+        {
+          "id": 20006,
+          "name": "Secret Garden",
+          "author": "EDM",
+          "locked": false,
+          "sort": 5
+        },
+        {
+          "id": 20007,
+          "name": "Techno",
+          "author": "EDM",
+          "locked": false,
+          "sort": 3
+        },
+        {
+          "id": 20008,
+          "name": "Techno Pulse",
+          "author": "EDM",
+          "locked": true,
+          "sort": 1
+        },
+        {
+          "id": 20009,
+          "name": "Skyline Fever",
+          "author": "EDM",
+          "locked": false,
+          "sort": 9
+        }
+      ]
+    },
+    {
+      "name": "House",
+      "sort": 4,
+      "groups": [
+        {
+          "id": 50001,
+          "name": "Cosmic Charge",
+          "author": "House",
+          "locked": true,
+          "sort": 2
+        },
+        {
+          "id": 50002,
+          "name": "Dance Pulse",
+          "author": "House",
+          "locked": false,
+          "sort": 4
+        },
+        {
+          "id": 50003,
+          "name": "Dynamic Spectrum",
+          "author": "House",
+          "locked": false,
+          "sort": 5
+        },
+        {
+          "id": 50004,
+          "name": "Groove Odyssey",
+          "author": "House",
+          "locked": false,
+          "sort": 6
+        },
+        {
+          "id": 50005,
+          "name": "Heavenly House",
+          "author": "House",
+          "locked": true,
+          "sort": 1
+        },
+        {
+          "id": 50006,
+          "name": "Lost In Rave",
+          "author": "House",
+          "locked": false,
+          "sort": 7
+        },
+        {
+          "id": 50007,
+          "name": "Melodic Motion",
+          "author": "House",
+          "locked": false,
+          "sort": 8
+        },
+        {
+          "id": 50008,
+          "name": "Radiation",
+          "author": "House",
+          "locked": false,
+          "sort": 3
+        }
+      ]
+    },
+    {
+      "name": "Lo-Fi",
+      "sort": 5,
+      "groups": [
+        {
+          "id": 60001,
+          "name": "Chill Vibes",
+          "author": "Lo-Fi",
+          "locked": true,
+          "sort": 2
+        },
+        {
+          "id": 60002,
+          "name": "City Walking",
+          "author": "Lo-Fi",
+          "locked": false,
+          "sort": 3
+        },
+        {
+          "id": 60003,
+          "name": "Cozy Beat",
+          "author": "Lo-Fi",
+          "locked": false,
+          "sort": 4
+        },
+        {
+          "id": 60004,
+          "name": "Distant Memories",
+          "author": "Lo-Fi",
+          "locked": false,
+          "sort": 5
+        },
+        {
+          "id": 60005,
+          "name": "Floating Thoughts",
+          "author": "Lo-Fi",
+          "locked": true,
+          "sort": 1
+        },
+        {
+          "id": 60006,
+          "name": "Lofi Afternoon",
+          "author": "Lo-Fi",
+          "locked": false,
+          "sort": 6
+        },
+        {
+          "id": 60007,
+          "name": "Mellow Mix",
+          "author": "Lo-Fi",
+          "locked": false,
+          "sort": 7
+        },
+        {
+          "id": 60008,
+          "name": "Subtle Hues",
+          "author": "Lo-Fi",
+          "locked": false,
+          "sort": 8
+        }
+      ]
+    },
+    {
+      "name": "Electro",
+      "sort": 6,
+      "groups": [
+        {
+          "id": 30001,
+          "name": "Bassquake",
+          "author": "Electro",
+          "locked": false,
+          "sort": 8
+        },
+        {
+          "id": 30002,
+          "name": "Celestial Journey",
+          "author": "Electro",
+          "locked": false,
+          "sort": 7
+        },
+        {
+          "id": 30003,
+          "name": "Electro Frenzy",
+          "author": "Electro",
+          "locked": false,
+          "sort": 6
+        },
+        {
+          "id": 30004,
+          "name": "Hyperspace",
+          "author": "Electro",
+          "locked": false,
+          "sort": 5
+        },
+        {
+          "id": 30005,
+          "name": "Laser Groove",
+          "author": "Electro",
+          "locked": false,
+          "sort": 4
+        },
+        {
+          "id": 30006,
+          "name": "Nebula",
+          "author": "Electro",
+          "locked": true,
+          "sort": 1
+        },
+        {
+          "id": 30007,
+          "name": "Synthed Out",
+          "author": "Electro",
+          "locked": false,
+          "sort": 3
+        },
+        {
+          "id": 30008,
+          "name": "Techno Thunder",
+          "author": "Electro",
+          "locked": true,
+          "sort": 2
+        }
+      ]
+    },
+    {
+      "name": "Dubstep",
+      "sort": 7,
+      "groups": [
+        {
+          "id": 10001,
+          "name": "Dark Matter",
+          "author": "Dubstep",
+          "locked": false,
+          "sort": 8
+        },
+        {
+          "id": 10002,
+          "name": "Dubstep Origins",
+          "author": "Dubstep",
+          "locked": true,
+          "sort": 1
+        },
+        {
+          "id": 10003,
+          "name": "Dubstep Power",
+          "author": "Dubstep",
+          "locked": false,
+          "sort": 3
+        },
+        {
+          "id": 10004,
+          "name": "Hybrid Trap",
+          "author": "Dubstep",
+          "locked": false,
+          "sort": 4
+        },
+        {
+          "id": 10005,
+          "name": "Neon Surge",
+          "author": "Dubstep",
+          "locked": false,
+          "sort": 6
+        },
+        {
+          "id": 10006,
+          "name": "Psychedelic",
+          "author": "Dubstep",
+          "locked": true,
+          "sort": 2
+        },
+        {
+          "id": 10007,
+          "name": "Sub Rumble",
+          "author": "Dubstep",
+          "locked": false,
+          "sort": 7
+        },
+        {
+          "id": 10008,
+          "name": "Void Ascend",
+          "author": "Dubstep",
+          "locked": false,
+          "sort": 5
+        }
+      ]
+    }
+  ]
+}

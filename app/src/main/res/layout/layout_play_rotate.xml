@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/play_rotate_layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    android:gravity="center">
+
+    <com.ijoysoft.music.view.square.SquareFrameLayout
+        android:id="@+id/play_rotate_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/play_rotate_layout_margin"
+        android:clipChildren="false"
+        app:squareFactory="withMin"
+        app:squareRatio="1.0">
+
+        <com.ijoysoft.mix.view.RotateAlbumView
+            android:id="@+id/play_rotate_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+    </com.ijoysoft.music.view.square.SquareFrameLayout>
+
+    <include
+        android:id="@+id/pitch_bend_layout"
+        layout="@layout/activity_main_rotate_layout_pitch_bend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/play_rotate_parent"
+        android:layout_alignTop="@+id/play_rotate_parent"
+        android:layout_marginStart="@dimen/pitch_bend_margin_h"
+        android:layout_marginTop="@dimen/pitch_bend_margin_top" />
+</RelativeLayout>

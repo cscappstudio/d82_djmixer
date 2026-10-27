@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0E1A"
+    android:orientation="vertical">
+
+    <!-- Top Toolbar -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/layout_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="#0E1322"
+        android:paddingStart="8dp"
+        android:paddingEnd="12dp">
+
+        <!-- Back Button -->
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:contentDescription="@string/cancel"
+            android:focusable="true"
+            android:padding="11dp"
+            android:src="@drawable/vector_menu_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#FFFFFF" />
+
+        <!-- Store Title -->
+        <TextView
+            android:id="@+id/txt_store_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/sound_sample_store"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/btn_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Search Input Bar (Expands when active) -->
+        <LinearLayout
+            android:id="@+id/layout_search_bar"
+            android:layout_width="0dp"
+            android:layout_height="36dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="12dp"
+            android:background="@drawable/bg_btn_preview_circle"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="10dp"
+            android:paddingEnd="8dp"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_folder"
+            app:layout_constraintStart_toEndOf="@+id/btn_back"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="gone">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/vector_menu_search"
+                app:tint="#94A3B8" />
+
+            <EditText
+                android:id="@+id/edt_search"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:hint="@string/search_samples_hint"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#64748B"
+                android:textSize="13sp" />
+
+            <ImageView
+                android:id="@+id/btn_clear_search"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:padding="4dp"
+                android:src="@drawable/vector_ds_cancel"
+                android:visibility="gone"
+                app:tint="#94A3B8" />
+        </LinearLayout>
+
+        <!-- Search Toggle Button -->
+        <ImageView
+            android:id="@+id/btn_search"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="9dp"
+            android:src="@drawable/vector_menu_search"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_folder"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#CBD5E1" />
+
+        <!-- Folder / My Samples Button -->
+        <ImageView
+            android:id="@+id/btn_folder"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="2dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="9dp"
+            android:src="@drawable/ic_store_folder"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/btn_more_options"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#CBD5E1" />
+
+        <!-- Overflow Options Button -->
+        <ImageView
+            android:id="@+id/btn_more_options"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="9dp"
+            android:src="@drawable/ic_overflow_dots"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="#CBD5E1" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <!-- Divider Line -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#181F33" />
+
+    <!-- Content Area: RecyclerView + Empty State -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_packs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:padding="8dp"
+            tools:listitem="@layout/item_sample_pack" />
+
+        <!-- Empty State Container -->
+        <LinearLayout
+            android:id="@+id/layout_empty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="gone">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:alpha="0.6"
+                android:src="@drawable/folder_empty" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="@string/library_empty"
+                android:textColor="#94A3B8"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

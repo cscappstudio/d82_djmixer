@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="12dp"
+    android:paddingHorizontal="20dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:paddingVertical="8dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ds_left_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8">
+
+            <include
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="80"
+                layout="@layout/dialog_main_settings_pro_layout"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="20">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@+id/ds_guide_tutorial"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginEnd="4dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/vector_ds_tutorial_guide"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tutorial"
+                        android:singleLine="true"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:id="@+id/ds_sampler_store"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="4dp">
+
+                    <androidx.appcompat.widget.AppCompatImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/vector_ds_sampler_store"/>
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sample_store"
+                        android:singleLine="true"
+                        android:layout_marginStart="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/ds_right_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/ds_auto_mix"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/auto_mix"
+                        android:singleLine="true"
+                        android:drawablePadding="4dp"
+                        app:drawableTopCompat="@drawable/vector_ds_automix"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/ds_beat_maker"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/beat_maker"
+                        android:singleLine="true"
+                        android:drawablePadding="4dp"
+                        app:drawableTopCompat="@drawable/vector_ds_beat_maker"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/ds_drumpad"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/drum_pad"
+                        android:singleLine="true"
+                        android:drawablePadding="4dp"
+                        app:drawableTopCompat="@drawable/vector_ds_drumpad"/>
+                </FrameLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="8dp"
+                android:layout_weight="1">
+
+                <FrameLayout
+                    android:id="@+id/ds_ringtone_cutter"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/ringtone_cutter"
+                        android:singleLine="true"
+                        android:drawablePadding="4dp"
+                        app:drawableTopCompat="@drawable/vector_ds_ringtone_cutter"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/ds_audio_mixer"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/audio_mixer"
+                        android:singleLine="true"
+                        android:drawablePadding="4dp"
+                        app:drawableTopCompat="@drawable/vector_ds_audio_mixer"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/ds_audio_merge"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginStart="8dp">
+
+                    <androidx.appcompat.widget.AppCompatTextView
+                        android:textSize="@dimen/ds_text_size"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/main_tab_audiomerger"
+                        android:singleLine="true"
+                        android:drawablePadding="4dp"
+                        app:drawableTopCompat="@drawable/vector_ds_audio_merge"/>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_gravity="top|center_horizontal"
+            android:id="@+id/ds_cancel"
+            android:background="@drawable/b_selector_image_bg_aw"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/vector_ds_cancel"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_gravity="bottom|center_horizontal"
+            android:id="@+id/ds_setting_layout"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/vector_ds_setting"/>
+    </FrameLayout>
+</LinearLayout>

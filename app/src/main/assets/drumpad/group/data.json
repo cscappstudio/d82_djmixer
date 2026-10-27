@@ -1,0 +1,1749 @@
+{
+  "version": 1,
+  "name": "Urban Rhythm",
+  "author": "Trap",
+  "bpm": 85,
+  "colorSchemes": [
+    {
+      "scene": "A",
+      "colors": [
+        "red",
+        "yellow",
+        "green",
+        "red",
+        "yellow",
+        "green",
+        "red",
+        "yellow",
+        "green",
+        "blue",
+        "blue",
+        "blue"
+      ]
+    },
+    {
+      "scene": "B",
+      "colors": [
+        "purple",
+        "purple",
+        "purple",
+        "blue",
+        "blue",
+        "red",
+        "yellow",
+        "yellow",
+        "red",
+        "green",
+        "green",
+        "green"
+      ]
+    }
+  ],
+  "tutorials": [
+    {
+      "id": 1732860826024,
+      "index": 0,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826025,
+      "index": 1,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "1",
+        "4",
+        "7"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "4"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "7"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826026,
+      "index": 2,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "1",
+        "4",
+        "7",
+        "A",
+        "B",
+        "C"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "1",
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "4"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "1",
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "7"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826027,
+      "index": 3,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "8",
+        "9"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "6",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "8",
+            "9"
+          ]
+        },
+        {
+          "rhythm": 6,
+          "keys": [
+            "3"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826028,
+      "index": 4,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "2",
+        "3",
+        "5",
+        "6",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B",
+            "3"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826029,
+      "index": 5,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "4"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "6",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "7"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826030,
+      "index": 6,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "1",
+        "2",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "1",
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C",
+            "4"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "1",
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C",
+            "7"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826031,
+      "index": 7,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "4"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "7"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "3",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "6",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "4"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "3",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "5"
+          ]
+        },
+        {
+          "rhythm": 8,
+          "keys": [
+            "2"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "7"
+          ]
+        },
+        {
+          "rhythm": 4,
+          "keys": [
+            "8",
+            "9"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    },
+    {
+      "id": 1732860826032,
+      "index": 8,
+      "scene": "A",
+      "bpm": 85,
+      "keys": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "A",
+        "B",
+        "C"
+      ],
+      "rhythms": [
+        {
+          "rhythm": 1,
+          "keys": [
+            "1"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "4"
+          ]
+        },
+        {
+          "rhythm": 16,
+          "keys": [
+            "1",
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "7"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "3",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "6",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "1",
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C",
+            "4"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "3",
+            "8"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "1",
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "5"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "2"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C",
+            "7"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "A",
+            "8",
+            "9"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "C"
+          ]
+        },
+        {
+          "rhythm": 2,
+          "keys": [
+            "B"
+          ]
+        }
+      ],
+      "last": 0.0,
+      "best": 0.0,
+      "state": 0
+    }
+  ]
+}

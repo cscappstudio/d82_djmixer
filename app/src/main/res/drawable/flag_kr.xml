@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="20dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+    <!-- White Background -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M0,0h30v20h-30z"/>
+    <!-- Blue Bottom Half of Circle -->
+    <path
+        android:fillColor="#0047A0"
+        android:pathData="M15,5 A5,5 0 0,0 15,15 A2.5,2.5 0 0,0 15,10 A2.5,2.5 0 0,1 15,5 Z"/>
+    <!-- Red Top Half of Circle -->
+    <path
+        android:fillColor="#CD2E3A"
+        android:pathData="M15,15 A5,5 0 0,0 15,5 A2.5,2.5 0 0,0 15,10 A2.5,2.5 0 0,1 15,15 Z"/>
+</vector>

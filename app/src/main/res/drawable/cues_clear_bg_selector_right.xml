@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <selector>
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/cues_clear_bg_selected_right_pressed"/>
+            <item android:drawable="@drawable/cues_clear_bg_selected_right"/>
+        </selector>
+    </item>
+    <item android:state_selected="false">
+        <selector>
+            <item
+                android:state_enabled="false"
+                android:drawable="@drawable/cues_clear_bg_pressed"/>
+            <item
+                android:state_pressed="true"
+                android:drawable="@drawable/cues_clear_bg_pressed"/>
+            <item android:drawable="@drawable/cues_clear_bg"/>
+        </selector>
+    </item>
+</selector>

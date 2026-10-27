@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="230dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_popup_source_menu"
+    android:elevation="10dp"
+    android:padding="6dp">
+
+    <!-- Option: Device -->
+    <LinearLayout
+        android:id="@+id/item_source_device"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:padding="5dp"
+            android:background="@drawable/bg_icon_gradient_device"
+            android:src="@drawable/ic_device_phone_white" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/source_device_title"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/source_device_subtitle"
+                android:textColor="#8892A0"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ic_check_device"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_check_mark"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#282D39"
+        android:layout_marginHorizontal="6dp"
+        android:layout_marginVertical="3dp" />
+
+    <!-- Option: Online -->
+    <LinearLayout
+        android:id="@+id/item_source_online"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:background="?attr/selectableItemBackground">
+
+        <ImageView
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:padding="5dp"
+            android:background="@drawable/bg_icon_gradient_online"
+            android:src="@drawable/ic_headphone_white" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/source_online_title"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/source_online_subtitle"
+                android:textColor="#8892A0"
+                android:textSize="11sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/ic_check_online"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_check_mark"
+            android:visibility="visible" />
+    </LinearLayout>
+</LinearLayout>

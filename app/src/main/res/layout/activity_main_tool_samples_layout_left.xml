@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="@dimen/sample_layout_margin_h"
+    android:layout_marginVertical="@dimen/sample_layout_margin_v"
+    android:layout_marginLeft="@dimen/sample_layout_margin_h"
+    android:layout_marginTop="@dimen/sample_layout_margin_v"
+    android:layout_marginRight="@dimen/sample_layout_margin_h"
+    android:layout_marginBottom="@dimen/sample_layout_margin_v"
+    android:background="@drawable/tool_layout_bg"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/sample_layout_padding_h"
+    android:paddingVertical="@dimen/sample_layout_padding_v"
+    android:paddingLeft="@dimen/sample_layout_padding_h"
+    android:paddingTop="@dimen/sample_layout_padding_v"
+    android:paddingRight="@dimen/sample_layout_padding_h"
+    android:paddingBottom="@dimen/sample_layout_padding_v">
+
+    <LinearLayout
+        android:id="@+id/btn_more_samplers"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/sample_btn_height"
+        android:background="@drawable/btn_sampler_more_selector"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_more_samplers_image"
+            android:layout_width="@dimen/sample_btn_icon_size"
+            android:layout_height="@dimen/sample_btn_icon_size"
+            app:srcCompat="@drawable/vector_sampler_more" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/btn_more_samplers_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginEnd="6dp"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/more_samples"
+            android:textColor="#fff"
+            android:textSize="@dimen/sample_btn_text_size" />
+
+        <TextView
+            android:id="@+id/tag_ad_sampler_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_ad_badge_corner"
+            android:paddingStart="4dp"
+            android:paddingTop="1dp"
+            android:paddingEnd="4dp"
+            android:paddingBottom="1dp"
+            android:text="AD"
+            android:textColor="#FFFFFF"
+            android:textSize="7.5sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/sample_layout_margin_top"
+        android:layout_marginBottom="@dimen/sample_layout_margin_bottom"
+        android:layout_weight="1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/layout_1"
+            android:layout_width="@dimen/sample_seekbar_width"
+            android:layout_height="0dp"
+            android:layout_marginEnd="@dimen/sample_seekbar_sample_margin"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@+id/layout_2"
+            app:layout_constraintEnd_toStartOf="@+id/layout_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/layout_2">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sample_seekbar_arrow_height"
+                android:layout_marginBottom="@dimen/sample_seekbar_arrow_margin_bottom"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/arrow_left"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/sample_arrow_left_bg_selector"
+                    android:padding="@dimen/sample_seekbar_arrow_padding"
+                    app:srcCompat="@drawable/vector_arrow_sample_left"
+                    app:tint="@color/theme_color_selector_left" />
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/arrow_right"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/sample_arrow_right_bg_selector"
+                    android:padding="@dimen/sample_seekbar_arrow_padding"
+                    app:srcCompat="@drawable/vector_arrow_sample_right"
+                    app:tint="@color/theme_color_selector_left" />
+            </LinearLayout>
+
+            <com.ijoysoft.mix.view.CustomSeekBar
+                android:id="@+id/seekbar_samples"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/seekbar_bg_sample"
+                android:paddingHorizontal="@dimen/sample_seekbar_padding_h"
+                android:paddingVertical="@dimen/sample_seekbar_padding_v"
+                android:paddingLeft="@dimen/sample_seekbar_padding_h"
+                android:paddingTop="@dimen/sample_seekbar_padding_v"
+                android:paddingRight="@dimen/sample_seekbar_padding_h"
+                android:paddingBottom="@dimen/sample_seekbar_padding_v"
+                app:seekProgressBgColor="@color/sample_seekbar_progress_bg_color"
+                app:seekProgressColor="@color/theme_color_left"
+                app:seekProgressSize="@dimen/sample_seekbar_progress_size"
+                app:seekProgressThumb="@drawable/seekbar_thumb_v_left"
+                app:seekScaleLineColor="@color/sample_seekbar_scale_line_color"
+                app:seekScaleLinePressedColor="@color/sample_seekbar_scale_line_color_pressed"
+                app:seekScaleLineShortColor="@color/sample_seekbar_scale_line_color_short"
+                app:seekScaleLineShortPressedColor="@color/sample_seekbar_scale_line_color_short_pressed"
+                app:seekTextSize="@dimen/sample_seekbar_text_size"
+                app:seekThumbEdgeAlign="true"
+                app:seekThumbEdgeShadowRatio="0.1"
+                app:seekVerticalMode="true" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/layout_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/layout_1"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.viewpager.widget.ViewPager
+                android:id="@+id/viewPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="@string/sample_tips"
+            android:textColor="@color/primary_color"
+            android:textSize="@dimen/sample_tips_text_size" />
+
+        <com.ijoysoft.mix.view.SelectBox
+            android:id="@+id/samples_switch"
+            android:layout_width="@dimen/sample_switch_width"
+            android:layout_height="@dimen/sample_switch_height"
+            android:layout_marginStart="8dp"
+            app:srcCompat="@drawable/sample_selector_left" />
+    </LinearLayout>
+</LinearLayout>

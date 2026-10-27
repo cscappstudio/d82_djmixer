@@ -1,0 +1,2703 @@
+{
+  "server": "https://djmusicres.ijoysoftconnect.com/djmixer/sampler/",
+  "samplers": [
+    {
+      "id": "01",
+      "title": "Motive Power",
+      "des": "Eletro",
+      "items": [
+        {
+          "id": "01",
+          "title": "Leads 1"
+        },
+        {
+          "id": "02",
+          "title": "Leads 2"
+        },
+        {
+          "id": "03",
+          "title": "Leads 3"
+        },
+        {
+          "id": "04",
+          "title": "Leads 4"
+        },
+        {
+          "id": "05",
+          "title": "Brass"
+        },
+        {
+          "id": "06",
+          "title": "Kick"
+        },
+        {
+          "id": "07",
+          "title": "HKick"
+        },
+        {
+          "id": "08",
+          "title": "Snare"
+        },
+        {
+          "id": "09",
+          "title": "BsLdC"
+        },
+        {
+          "id": "10",
+          "title": "Lead"
+        },
+        {
+          "id": "11",
+          "title": "Lead 2"
+        },
+        {
+          "id": "12",
+          "title": "Lead 3"
+        },
+        {
+          "id": "13",
+          "title": "Lead 4"
+        },
+        {
+          "id": "14",
+          "title": "Lead 5"
+        },
+        {
+          "id": "15",
+          "title": "Lead 6"
+        },
+        {
+          "id": "16",
+          "title": "Lead 7"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Pop Beats",
+      "des": "Beat Drum",
+      "items": [
+        {
+          "id": "01",
+          "title": "Vox"
+        },
+        {
+          "id": "02",
+          "title": "Kit 2"
+        },
+        {
+          "id": "03",
+          "title": "Plate Fx"
+        },
+        {
+          "id": "04",
+          "title": "Echo"
+        },
+        {
+          "id": "05",
+          "title": "SharpLd"
+        },
+        {
+          "id": "06",
+          "title": "SharpLd 1"
+        },
+        {
+          "id": "07",
+          "title": "SharpLd 2"
+        },
+        {
+          "id": "08",
+          "title": "SharpLd 3"
+        },
+        {
+          "id": "09",
+          "title": "Snares"
+        },
+        {
+          "id": "10",
+          "title": "SubHigh"
+        },
+        {
+          "id": "11",
+          "title": "SubLow"
+        },
+        {
+          "id": "12",
+          "title": "Clave"
+        },
+        {
+          "id": "13",
+          "title": "Hat"
+        },
+        {
+          "id": "14",
+          "title": "Hats"
+        },
+        {
+          "id": "15",
+          "title": "Kick"
+        },
+        {
+          "id": "16",
+          "title": "Snare"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Trap Kits",
+      "des": "Hip Hop",
+      "items": [
+        {
+          "id": "01",
+          "title": "Panning"
+        },
+        {
+          "id": "02",
+          "title": "Spire"
+        },
+        {
+          "id": "03",
+          "title": "Siren"
+        },
+        {
+          "id": "04",
+          "title": "Snare"
+        },
+        {
+          "id": "05",
+          "title": "Shock 1"
+        },
+        {
+          "id": "06",
+          "title": "Shock 2"
+        },
+        {
+          "id": "07",
+          "title": "Shock 3"
+        },
+        {
+          "id": "08",
+          "title": "Shock 4"
+        },
+        {
+          "id": "09",
+          "title": "Click"
+        },
+        {
+          "id": "10",
+          "title": "Cymbal"
+        },
+        {
+          "id": "11",
+          "title": "Dancehall"
+        },
+        {
+          "id": "12",
+          "title": "Rise"
+        },
+        {
+          "id": "13",
+          "title": "Gong"
+        },
+        {
+          "id": "14",
+          "title": "Rev"
+        },
+        {
+          "id": "15",
+          "title": "Flute"
+        },
+        {
+          "id": "16",
+          "title": "Mix"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "Pop Base",
+      "des": "Hip Hop",
+      "items": [
+        {
+          "id": "01",
+          "title": "Hat"
+        },
+        {
+          "id": "02",
+          "title": "Kick 2"
+        },
+        {
+          "id": "03",
+          "title": "Kick"
+        },
+        {
+          "id": "04",
+          "title": "Snare"
+        },
+        {
+          "id": "05",
+          "title": "Synth"
+        },
+        {
+          "id": "06",
+          "title": "Hat"
+        },
+        {
+          "id": "07",
+          "title": "Crush"
+        },
+        {
+          "id": "08",
+          "title": "Synth 2"
+        },
+        {
+          "id": "09",
+          "title": "FX"
+        },
+        {
+          "id": "10",
+          "title": "Synth"
+        },
+        {
+          "id": "11",
+          "title": "Synth"
+        },
+        {
+          "id": "12",
+          "title": "Scratch"
+        },
+        {
+          "id": "13",
+          "title": "Shot"
+        },
+        {
+          "id": "14",
+          "title": "Dynamic"
+        },
+        {
+          "id": "15",
+          "title": "FX 2"
+        },
+        {
+          "id": "16",
+          "title": "Trap"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "Spire State",
+      "des": "EDM",
+      "items": [
+        {
+          "id": "01",
+          "title": "BellA"
+        },
+        {
+          "id": "02",
+          "title": "BellB"
+        },
+        {
+          "id": "03",
+          "title": "BellC"
+        },
+        {
+          "id": "04",
+          "title": "BellD"
+        },
+        {
+          "id": "05",
+          "title": "BellE"
+        },
+        {
+          "id": "06",
+          "title": "BellF"
+        },
+        {
+          "id": "07",
+          "title": "Hat"
+        },
+        {
+          "id": "08",
+          "title": "HighKick"
+        },
+        {
+          "id": "09",
+          "title": "Closed Hat"
+        },
+        {
+          "id": "10",
+          "title": "Snare"
+        },
+        {
+          "id": "11",
+          "title": "Snares"
+        },
+        {
+          "id": "12",
+          "title": "Ride"
+        },
+        {
+          "id": "13",
+          "title": "Kick"
+        },
+        {
+          "id": "14",
+          "title": "Kicks"
+        },
+        {
+          "id": "15",
+          "title": "Clap"
+        },
+        {
+          "id": "16",
+          "title": "Open Hat"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "Pixel Trap",
+      "des": "Drum Sounds",
+      "items": [
+        {
+          "id": "01",
+          "title": "FX 1"
+        },
+        {
+          "id": "02",
+          "title": "FX 2"
+        },
+        {
+          "id": "03",
+          "title": "Chords 1"
+        },
+        {
+          "id": "04",
+          "title": "Chords 2"
+        },
+        {
+          "id": "05",
+          "title": "Kick"
+        },
+        {
+          "id": "06",
+          "title": "Hit 1"
+        },
+        {
+          "id": "07",
+          "title": "Hit 2"
+        },
+        {
+          "id": "08",
+          "title": "Hit 3"
+        },
+        {
+          "id": "09",
+          "title": "Roar"
+        },
+        {
+          "id": "10",
+          "title": "Synth 1"
+        },
+        {
+          "id": "11",
+          "title": "Synth 2"
+        },
+        {
+          "id": "12",
+          "title": "Synth 3"
+        },
+        {
+          "id": "13",
+          "title": "Saw"
+        },
+        {
+          "id": "14",
+          "title": "Fill"
+        },
+        {
+          "id": "15",
+          "title": "Dynamic"
+        },
+        {
+          "id": "16",
+          "title": "Rhythm"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "Deep Waves",
+      "des": "EDM",
+      "items": [
+        {
+          "id": "01",
+          "title": "Claps"
+        },
+        {
+          "id": "02",
+          "title": "Beating"
+        },
+        {
+          "id": "03",
+          "title": "Gong"
+        },
+        {
+          "id": "04",
+          "title": "Hey"
+        },
+        {
+          "id": "05",
+          "title": "Piping 1"
+        },
+        {
+          "id": "06",
+          "title": "Piping 2"
+        },
+        {
+          "id": "07",
+          "title": "Piping 3"
+        },
+        {
+          "id": "08",
+          "title": "Piping 4"
+        },
+        {
+          "id": "09",
+          "title": "Piping 5"
+        },
+        {
+          "id": "10",
+          "title": "Piping 6"
+        },
+        {
+          "id": "11",
+          "title": "Piping 7"
+        },
+        {
+          "id": "12",
+          "title": "Piping 8"
+        },
+        {
+          "id": "13",
+          "title": "Beat 1"
+        },
+        {
+          "id": "14",
+          "title": "Beat 2"
+        },
+        {
+          "id": "15",
+          "title": "Beat 4"
+        },
+        {
+          "id": "16",
+          "title": "Shouting"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "Haze Tapes",
+      "des": "Beat Drum",
+      "items": [
+        {
+          "id": "01",
+          "title": "Low"
+        },
+        {
+          "id": "02",
+          "title": "Bell"
+        },
+        {
+          "id": "03",
+          "title": "Clap"
+        },
+        {
+          "id": "04",
+          "title": "Lives"
+        },
+        {
+          "id": "05",
+          "title": "High"
+        },
+        {
+          "id": "06",
+          "title": "Kick"
+        },
+        {
+          "id": "07",
+          "title": "Hats"
+        },
+        {
+          "id": "08",
+          "title": "Open"
+        },
+        {
+          "id": "09",
+          "title": "Ride"
+        },
+        {
+          "id": "10",
+          "title": "Close"
+        },
+        {
+          "id": "11",
+          "title": "Crash"
+        },
+        {
+          "id": "12",
+          "title": "Mid"
+        },
+        {
+          "id": "13",
+          "title": "Snare"
+        },
+        {
+          "id": "14",
+          "title": "Shake"
+        },
+        {
+          "id": "15",
+          "title": "Ugh"
+        },
+        {
+          "id": "16",
+          "title": "Waves"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "Bass Chill",
+      "des": "EDM",
+      "items": [
+        {
+          "id": "01",
+          "title": "FX 1"
+        },
+        {
+          "id": "02",
+          "title": "Crashes"
+        },
+        {
+          "id": "03",
+          "title": "Clean"
+        },
+        {
+          "id": "04",
+          "title": "FX 2"
+        },
+        {
+          "id": "05",
+          "title": "Toms"
+        },
+        {
+          "id": "06",
+          "title": "Crashes 1"
+        },
+        {
+          "id": "07",
+          "title": "FX 3"
+        },
+        {
+          "id": "08",
+          "title": "Crashes"
+        },
+        {
+          "id": "09",
+          "title": "Crashes 1"
+        },
+        {
+          "id": "10",
+          "title": "Claps 1"
+        },
+        {
+          "id": "11",
+          "title": "Claps 2"
+        },
+        {
+          "id": "12",
+          "title": "Crashes 2"
+        },
+        {
+          "id": "13",
+          "title": "Claps 3"
+        },
+        {
+          "id": "14",
+          "title": "Crashes 3"
+        },
+        {
+          "id": "15",
+          "title": "Tong"
+        },
+        {
+          "id": "16",
+          "title": "Echo"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Conga Smood",
+      "des": "Beat Drum",
+      "items": [
+        {
+          "id": "01",
+          "title": "Crashes 1"
+        },
+        {
+          "id": "02",
+          "title": "Crashes 2"
+        },
+        {
+          "id": "03",
+          "title": "Crashes 3"
+        },
+        {
+          "id": "04",
+          "title": "Trap"
+        },
+        {
+          "id": "05",
+          "title": "Spacious 1"
+        },
+        {
+          "id": "06",
+          "title": "Spacious 2"
+        },
+        {
+          "id": "07",
+          "title": "Spacious 3"
+        },
+        {
+          "id": "08",
+          "title": "Spacious 4"
+        },
+        {
+          "id": "09",
+          "title": "Spacious 5"
+        },
+        {
+          "id": "10",
+          "title": "Spacious 6"
+        },
+        {
+          "id": "11",
+          "title": "Spacious 7"
+        },
+        {
+          "id": "12",
+          "title": "Spacious 8"
+        },
+        {
+          "id": "13",
+          "title": "Live full 1"
+        },
+        {
+          "id": "14",
+          "title": "Live full 2"
+        },
+        {
+          "id": "15",
+          "title": "Live full 3"
+        },
+        {
+          "id": "16",
+          "title": "Live full4"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Future Soul",
+      "des": "Eletro",
+      "items": [
+        {
+          "id": "01",
+          "title": "Bass 2"
+        },
+        {
+          "id": "02",
+          "title": "Woof"
+        },
+        {
+          "id": "03",
+          "title": "BrassShot"
+        },
+        {
+          "id": "04",
+          "title": "Miss"
+        },
+        {
+          "id": "05",
+          "title": "Synth"
+        },
+        {
+          "id": "06",
+          "title": "Synth 2"
+        },
+        {
+          "id": "07",
+          "title": "Synth 3"
+        },
+        {
+          "id": "08",
+          "title": "Synth 4"
+        },
+        {
+          "id": "09",
+          "title": "Synth 5"
+        },
+        {
+          "id": "10",
+          "title": "Synth 6"
+        },
+        {
+          "id": "11",
+          "title": "Kick 1"
+        },
+        {
+          "id": "12",
+          "title": "Kick 2"
+        },
+        {
+          "id": "13",
+          "title": "Snare"
+        },
+        {
+          "id": "14",
+          "title": "Hat"
+        },
+        {
+          "id": "15",
+          "title": "Proton"
+        },
+        {
+          "id": "16",
+          "title": "Hihat"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Roof Top",
+      "des": "Kick Sounds",
+      "items": [
+        {
+          "id": "01",
+          "title": "Drum"
+        },
+        {
+          "id": "02",
+          "title": "Kick"
+        },
+        {
+          "id": "03",
+          "title": "Kick 2"
+        },
+        {
+          "id": "04",
+          "title": "Hat 2"
+        },
+        {
+          "id": "05",
+          "title": "Slide"
+        },
+        {
+          "id": "06",
+          "title": "Slide 2"
+        },
+        {
+          "id": "07",
+          "title": "Wow"
+        },
+        {
+          "id": "08",
+          "title": "Drum 2"
+        },
+        {
+          "id": "09",
+          "title": "Hat 3"
+        },
+        {
+          "id": "10",
+          "title": "Hat"
+        },
+        {
+          "id": "11",
+          "title": "Hat 2"
+        },
+        {
+          "id": "12",
+          "title": "Kick 3"
+        },
+        {
+          "id": "13",
+          "title": "Shot"
+        },
+        {
+          "id": "14",
+          "title": "Hit"
+        },
+        {
+          "id": "15",
+          "title": "Hit 2"
+        },
+        {
+          "id": "16",
+          "title": "Shelf Drum"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "Beat Bombers",
+      "des": "EDM",
+      "items": [
+        {
+          "id": "01",
+          "title": "Death"
+        },
+        {
+          "id": "02",
+          "title": "DeepBrss"
+        },
+        {
+          "id": "03",
+          "title": "RawSaw"
+        },
+        {
+          "id": "04",
+          "title": "Break"
+        },
+        {
+          "id": "05",
+          "title": "Kick"
+        },
+        {
+          "id": "06",
+          "title": "Snare"
+        },
+        {
+          "id": "07",
+          "title": "Virus"
+        },
+        {
+          "id": "08",
+          "title": "Virus 2"
+        },
+        {
+          "id": "09",
+          "title": "Virus 3"
+        },
+        {
+          "id": "10",
+          "title": "Synth"
+        },
+        {
+          "id": "11",
+          "title": "Synth 2"
+        },
+        {
+          "id": "12",
+          "title": "Synth 3"
+        },
+        {
+          "id": "13",
+          "title": "Drop"
+        },
+        {
+          "id": "14",
+          "title": "Hat"
+        },
+        {
+          "id": "15",
+          "title": "Voc 1"
+        },
+        {
+          "id": "16",
+          "title": "Voc 2"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Trap Control",
+      "des": "House",
+      "items": [
+        {
+          "id": "01",
+          "title": "Detune"
+        },
+        {
+          "id": "02",
+          "title": "Detune 2"
+        },
+        {
+          "id": "03",
+          "title": "Detune 3"
+        },
+        {
+          "id": "04",
+          "title": "Shock"
+        },
+        {
+          "id": "05",
+          "title": "Hey"
+        },
+        {
+          "id": "06",
+          "title": "Slide"
+        },
+        {
+          "id": "07",
+          "title": "Snare"
+        },
+        {
+          "id": "08",
+          "title": "Perc"
+        },
+        {
+          "id": "09",
+          "title": "Beat"
+        },
+        {
+          "id": "10",
+          "title": "Hype"
+        },
+        {
+          "id": "11",
+          "title": "Kick"
+        },
+        {
+          "id": "12",
+          "title": "Kick 2"
+        },
+        {
+          "id": "13",
+          "title": "SharpLds"
+        },
+        {
+          "id": "14",
+          "title": "Pluck 1"
+        },
+        {
+          "id": "15",
+          "title": "Pluck 2"
+        },
+        {
+          "id": "16",
+          "title": "Bass"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Deep Power",
+      "des": "House",
+      "items": [
+        {
+          "id": "01",
+          "title": "Kits 1"
+        },
+        {
+          "id": "02",
+          "title": "Unlocked"
+        },
+        {
+          "id": "03",
+          "title": "Level up"
+        },
+        {
+          "id": "04",
+          "title": "Hard Kick"
+        },
+        {
+          "id": "05",
+          "title": "Hi-hat 1"
+        },
+        {
+          "id": "06",
+          "title": "Hi-hat 2"
+        },
+        {
+          "id": "07",
+          "title": "Hi-hat 3"
+        },
+        {
+          "id": "08",
+          "title": "Hi-hat 4"
+        },
+        {
+          "id": "09",
+          "title": "Hi-Hat"
+        },
+        {
+          "id": "10",
+          "title": "Kits 2"
+        },
+        {
+          "id": "11",
+          "title": "Drum"
+        },
+        {
+          "id": "12",
+          "title": "Kits 4"
+        },
+        {
+          "id": "13",
+          "title": "Echo Siren"
+        },
+        {
+          "id": "14",
+          "title": "Soft FX"
+        },
+        {
+          "id": "15",
+          "title": "Soft Snare"
+        },
+        {
+          "id": "16",
+          "title": "Yeah"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Pop Trap",
+      "des": "Hip Hop",
+      "items": [
+        {
+          "id": "01",
+          "title": "Knock"
+        },
+        {
+          "id": "02",
+          "title": "Ringing"
+        },
+        {
+          "id": "03",
+          "title": "Siren"
+        },
+        {
+          "id": "04",
+          "title": "Hey"
+        },
+        {
+          "id": "05",
+          "title": "Synth"
+        },
+        {
+          "id": "06",
+          "title": "Synth 2"
+        },
+        {
+          "id": "07",
+          "title": "Synth 3"
+        },
+        {
+          "id": "08",
+          "title": "Synth 5"
+        },
+        {
+          "id": "09",
+          "title": "Snare"
+        },
+        {
+          "id": "10",
+          "title": "Bell"
+        },
+        {
+          "id": "11",
+          "title": "Cymb"
+        },
+        {
+          "id": "12",
+          "title": "Impact"
+        },
+        {
+          "id": "13",
+          "title": "Hi-Hat"
+        },
+        {
+          "id": "14",
+          "title": "Kick"
+        },
+        {
+          "id": "15",
+          "title": "Hi-Hat"
+        },
+        {
+          "id": "16",
+          "title": "Snare"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Top Bass",
+      "des": "EDM",
+      "items": [
+        {
+          "id": "01",
+          "title": "Dynamic"
+        },
+        {
+          "id": "02",
+          "title": "Goom"
+        },
+        {
+          "id": "03",
+          "title": "Rhythm 1"
+        },
+        {
+          "id": "04",
+          "title": "Rhythm 2"
+        },
+        {
+          "id": "05",
+          "title": "Boom"
+        },
+        {
+          "id": "06",
+          "title": "Kick"
+        },
+        {
+          "id": "07",
+          "title": "Slap"
+        },
+        {
+          "id": "08",
+          "title": "HiHat"
+        },
+        {
+          "id": "09",
+          "title": "Pixel"
+        },
+        {
+          "id": "10",
+          "title": "Boom"
+        },
+        {
+          "id": "11",
+          "title": "Gum"
+        },
+        {
+          "id": "12",
+          "title": "Hast"
+        },
+        {
+          "id": "13",
+          "title": "Reverb"
+        },
+        {
+          "id": "14",
+          "title": "Blow"
+        },
+        {
+          "id": "15",
+          "title": "Hap"
+        },
+        {
+          "id": "16",
+          "title": "Dark"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Waka Trap Kit",
+      "des": "Trap",
+      "items": [
+        {
+          "id": "01",
+          "title": "Percus"
+        },
+        {
+          "id": "02",
+          "title": "Snare"
+        },
+        {
+          "id": "03",
+          "title": "Dubstep"
+        },
+        {
+          "id": "04",
+          "title": "HiHat"
+        },
+        {
+          "id": "05",
+          "title": "Kick"
+        },
+        {
+          "id": "06",
+          "title": "Waka1"
+        },
+        {
+          "id": "07",
+          "title": "Waka2"
+        },
+        {
+          "id": "08",
+          "title": "Waka3"
+        },
+        {
+          "id": "09",
+          "title": "Waka4"
+        },
+        {
+          "id": "10",
+          "title": "Waka5"
+        },
+        {
+          "id": "11",
+          "title": "Waka6"
+        },
+        {
+          "id": "12",
+          "title": "Waka7"
+        },
+        {
+          "id": "13",
+          "title": "Bass Shot"
+        },
+        {
+          "id": "14",
+          "title": "Gun"
+        },
+        {
+          "id": "15",
+          "title": "Boom"
+        },
+        {
+          "id": "16",
+          "title": "What1"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Synth Soundset",
+      "des": "EDM",
+      "items": [
+        {
+          "id": "01",
+          "title": "Synths1"
+        },
+        {
+          "id": "02",
+          "title": "Synths2"
+        },
+        {
+          "id": "03",
+          "title": "Synths3"
+        },
+        {
+          "id": "04",
+          "title": "Synths4"
+        },
+        {
+          "id": "05",
+          "title": "Synths5"
+        },
+        {
+          "id": "06",
+          "title": "Synths6"
+        },
+        {
+          "id": "07",
+          "title": "Synths7"
+        },
+        {
+          "id": "08",
+          "title": "Volume1"
+        },
+        {
+          "id": "09",
+          "title": "Volume2"
+        },
+        {
+          "id": "10",
+          "title": "Volume3"
+        },
+        {
+          "id": "11",
+          "title": "Volume4"
+        },
+        {
+          "id": "12",
+          "title": "Volume5"
+        },
+        {
+          "id": "13",
+          "title": "Volume6"
+        },
+        {
+          "id": "14",
+          "title": "Volume7"
+        },
+        {
+          "id": "15",
+          "title": "Volume8"
+        },
+        {
+          "id": "16",
+          "title": "Volume9"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Electro Drum Kit",
+      "des": "Electro",
+      "items": [
+        {
+          "id": "01",
+          "title": "Clap1"
+        },
+        {
+          "id": "02",
+          "title": "Clap2"
+        },
+        {
+          "id": "03",
+          "title": "B Snare"
+        },
+        {
+          "id": "04",
+          "title": "Snare"
+        },
+        {
+          "id": "05",
+          "title": "Kick"
+        },
+        {
+          "id": "06",
+          "title": "Perc"
+        },
+        {
+          "id": "07",
+          "title": "Electro1"
+        },
+        {
+          "id": "08",
+          "title": "Whoosh"
+        },
+        {
+          "id": "09",
+          "title": "Electro2"
+        },
+        {
+          "id": "10",
+          "title": "Electro3"
+        },
+        {
+          "id": "11",
+          "title": "Electro4"
+        },
+        {
+          "id": "12",
+          "title": "Electro5"
+        },
+        {
+          "id": "13",
+          "title": "Weird1"
+        },
+        {
+          "id": "14",
+          "title": "Weird2"
+        },
+        {
+          "id": "15",
+          "title": "Weird3"
+        },
+        {
+          "id": "16",
+          "title": "Weird4"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Trap Synth Kit",
+      "des": "Trap",
+      "items": [
+        {
+          "id": "01",
+          "title": "Snare"
+        },
+        {
+          "id": "02",
+          "title": "Triangle"
+        },
+        {
+          "id": "03",
+          "title": "vybeClap"
+        },
+        {
+          "id": "04",
+          "title": "Bass Shot"
+        },
+        {
+          "id": "05",
+          "title": "Shot1"
+        },
+        {
+          "id": "06",
+          "title": "Shot2"
+        },
+        {
+          "id": "07",
+          "title": "Shot3"
+        },
+        {
+          "id": "08",
+          "title": "Shot4"
+        },
+        {
+          "id": "09",
+          "title": "Shot5"
+        },
+        {
+          "id": "10",
+          "title": "Shot6"
+        },
+        {
+          "id": "11",
+          "title": "Shot7"
+        },
+        {
+          "id": "12",
+          "title": "Bark"
+        },
+        {
+          "id": "13",
+          "title": "Snare"
+        },
+        {
+          "id": "14",
+          "title": "Trap1"
+        },
+        {
+          "id": "15",
+          "title": "Trap2"
+        },
+        {
+          "id": "16",
+          "title": "Trap3"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Hip Hop FX",
+      "des": "Hip Hop",
+      "items": [
+        {
+          "id": "01",
+          "title": "Snap Lex"
+        },
+        {
+          "id": "02",
+          "title": "Snap Boi"
+        },
+        {
+          "id": "03",
+          "title": "Space"
+        },
+        {
+          "id": "04",
+          "title": "Stabby1"
+        },
+        {
+          "id": "05",
+          "title": "Stabby2"
+        },
+        {
+          "id": "06",
+          "title": "Stylus"
+        },
+        {
+          "id": "07",
+          "title": "Supa1"
+        },
+        {
+          "id": "08",
+          "title": "Supa2"
+        },
+        {
+          "id": "09",
+          "title": "Noise"
+        },
+        {
+          "id": "10",
+          "title": "Swell"
+        },
+        {
+          "id": "11",
+          "title": "Timpani"
+        },
+        {
+          "id": "12",
+          "title": "Tonal Hit1"
+        },
+        {
+          "id": "13",
+          "title": "Tonal Hit2"
+        },
+        {
+          "id": "14",
+          "title": "Tube Hit"
+        },
+        {
+          "id": "15",
+          "title": "Vox1"
+        },
+        {
+          "id": "16",
+          "title": "Vox2"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Scratch FX Kit",
+      "des": "Beat Drum",
+      "items": [
+        {
+          "id": "01",
+          "title": "Beat"
+        },
+        {
+          "id": "02",
+          "title": "Scratch1"
+        },
+        {
+          "id": "03",
+          "title": "Scratch2"
+        },
+        {
+          "id": "04",
+          "title": "Scratch3"
+        },
+        {
+          "id": "05",
+          "title": "Dropped"
+        },
+        {
+          "id": "06",
+          "title": "Water"
+        },
+        {
+          "id": "07",
+          "title": "Chant"
+        },
+        {
+          "id": "08",
+          "title": "Circus"
+        },
+        {
+          "id": "09",
+          "title": "Future"
+        },
+        {
+          "id": "10",
+          "title": "Siren"
+        },
+        {
+          "id": "11",
+          "title": "Temple"
+        },
+        {
+          "id": "12",
+          "title": "Noise"
+        },
+        {
+          "id": "13",
+          "title": "Riser"
+        },
+        {
+          "id": "14",
+          "title": "Drive"
+        },
+        {
+          "id": "15",
+          "title": "Lead"
+        },
+        {
+          "id": "16",
+          "title": "Bell"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Drum Synth Kit",
+      "des": "EDM",
+      "items": [
+        {
+          "id": "01",
+          "title": "Snare"
+        },
+        {
+          "id": "02",
+          "title": "Shine"
+        },
+        {
+          "id": "03",
+          "title": "Hihat"
+        },
+        {
+          "id": "04",
+          "title": "Snare1"
+        },
+        {
+          "id": "05",
+          "title": "Snare2"
+        },
+        {
+          "id": "06",
+          "title": "Synths"
+        },
+        {
+          "id": "07",
+          "title": "Synths2"
+        },
+        {
+          "id": "08",
+          "title": "Synths3"
+        },
+        {
+          "id": "09",
+          "title": "Synths4"
+        },
+        {
+          "id": "10",
+          "title": "Synths5"
+        },
+        {
+          "id": "11",
+          "title": "Synths6"
+        },
+        {
+          "id": "12",
+          "title": "Synths7"
+        },
+        {
+          "id": "13",
+          "title": "Synths8"
+        },
+        {
+          "id": "14",
+          "title": "Synths9"
+        },
+        {
+          "id": "15",
+          "title": "Synths10"
+        },
+        {
+          "id": "16",
+          "title": "Synths11"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Urban Synth Kit",
+      "des": "Hip Hop",
+      "items": [
+        {
+          "id": "01",
+          "title": "Trap"
+        },
+        {
+          "id": "02",
+          "title": "Ride"
+        },
+        {
+          "id": "03",
+          "title": "Snare"
+        },
+        {
+          "id": "04",
+          "title": "Hihat"
+        },
+        {
+          "id": "05",
+          "title": "Grinder"
+        },
+        {
+          "id": "06",
+          "title": "Lead1"
+        },
+        {
+          "id": "07",
+          "title": "Lead2"
+        },
+        {
+          "id": "08",
+          "title": "Synths1"
+        },
+        {
+          "id": "09",
+          "title": "Synths2"
+        },
+        {
+          "id": "10",
+          "title": "Synths3"
+        },
+        {
+          "id": "11",
+          "title": "Synths4"
+        },
+        {
+          "id": "12",
+          "title": "Synths5"
+        },
+        {
+          "id": "13",
+          "title": "Synths6"
+        },
+        {
+          "id": "14",
+          "title": "Synths7"
+        },
+        {
+          "id": "15",
+          "title": "Synths8"
+        },
+        {
+          "id": "16",
+          "title": "Synths9"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "Street Beat Kit",
+      "des": "Hip Hop",
+      "items": [
+        {
+          "id": "01",
+          "title": "Scratch1"
+        },
+        {
+          "id": "02",
+          "title": "Scratch2"
+        },
+        {
+          "id": "03",
+          "title": "Scratch3"
+        },
+        {
+          "id": "04",
+          "title": "Bomb"
+        },
+        {
+          "id": "05",
+          "title": "Glass"
+        },
+        {
+          "id": "06",
+          "title": "Register"
+        },
+        {
+          "id": "07",
+          "title": "LEX Snare"
+        },
+        {
+          "id": "08",
+          "title": "Poop"
+        },
+        {
+          "id": "09",
+          "title": "Wet Bass"
+        },
+        {
+          "id": "10",
+          "title": "Blaze"
+        },
+        {
+          "id": "11",
+          "title": "Noise FX"
+        },
+        {
+          "id": "12",
+          "title": "Layer"
+        },
+        {
+          "id": "13",
+          "title": "Openhat"
+        },
+        {
+          "id": "14",
+          "title": "Orchestra"
+        },
+        {
+          "id": "15",
+          "title": "Perc1"
+        },
+        {
+          "id": "16",
+          "title": "Perc2"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Master FX Kit",
+      "des": "Beat Drum",
+      "items": [
+        {
+          "id": "01",
+          "title": "C Snare"
+        },
+        {
+          "id": "02",
+          "title": "Scratch"
+        },
+        {
+          "id": "03",
+          "title": "Bell"
+        },
+        {
+          "id": "04",
+          "title": "Chant"
+        },
+        {
+          "id": "05",
+          "title": "Clap"
+        },
+        {
+          "id": "06",
+          "title": "Stomp"
+        },
+        {
+          "id": "07",
+          "title": "Aerials"
+        },
+        {
+          "id": "08",
+          "title": "Dubstep"
+        },
+        {
+          "id": "09",
+          "title": "HiHat1"
+        },
+        {
+          "id": "10",
+          "title": "HiHat2"
+        },
+        {
+          "id": "11",
+          "title": "Kick"
+        },
+        {
+          "id": "12",
+          "title": "Voice"
+        },
+        {
+          "id": "13",
+          "title": "Snare1"
+        },
+        {
+          "id": "14",
+          "title": "Snare2"
+        },
+        {
+          "id": "15",
+          "title": "Hall"
+        },
+        {
+          "id": "16",
+          "title": "Synths1"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Digital Bass FX",
+      "des": "Bass Sounds",
+      "items": [
+        {
+          "id": "01",
+          "title": "Down"
+        },
+        {
+          "id": "02",
+          "title": "Digital"
+        },
+        {
+          "id": "03",
+          "title": "Bass"
+        },
+        {
+          "id": "04",
+          "title": "Distort"
+        },
+        {
+          "id": "05",
+          "title": "FX1"
+        },
+        {
+          "id": "06",
+          "title": "Stab"
+        },
+        {
+          "id": "07",
+          "title": "FX2"
+        },
+        {
+          "id": "08",
+          "title": "Bass2"
+        },
+        {
+          "id": "09",
+          "title": "Bass3"
+        },
+        {
+          "id": "10",
+          "title": "Ride"
+        },
+        {
+          "id": "11",
+          "title": "Entrance"
+        },
+        {
+          "id": "12",
+          "title": "Foley"
+        },
+        {
+          "id": "13",
+          "title": "FX3"
+        },
+        {
+          "id": "14",
+          "title": "FX4"
+        },
+        {
+          "id": "15",
+          "title": "FX Click Glitch"
+        },
+        {
+          "id": "16",
+          "title": "Percs"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "Industrial FX Kit",
+      "des": "Electro",
+      "items": [
+        {
+          "id": "01",
+          "title": "FX1"
+        },
+        {
+          "id": "02",
+          "title": "FX2"
+        },
+        {
+          "id": "03",
+          "title": "FX3"
+        },
+        {
+          "id": "04",
+          "title": "FX4"
+        },
+        {
+          "id": "05",
+          "title": "FX5"
+        },
+        {
+          "id": "06",
+          "title": "FX6"
+        },
+        {
+          "id": "07",
+          "title": "FX7"
+        },
+        {
+          "id": "08",
+          "title": "FX8"
+        },
+        {
+          "id": "09",
+          "title": "FX9"
+        },
+        {
+          "id": "10",
+          "title": "FX10"
+        },
+        {
+          "id": "11",
+          "title": "FX11"
+        },
+        {
+          "id": "12",
+          "title": "FX12"
+        },
+        {
+          "id": "13",
+          "title": "FX13"
+        },
+        {
+          "id": "14",
+          "title": "FX14"
+        },
+        {
+          "id": "15",
+          "title": "FX15"
+        },
+        {
+          "id": "16",
+          "title": "FX16"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "Build Up Kit",
+      "des": "House",
+      "items": [
+        {
+          "id": "01",
+          "title": "Kick Drop"
+        },
+        {
+          "id": "02",
+          "title": "Brass1"
+        },
+        {
+          "id": "03",
+          "title": "Brass2"
+        },
+        {
+          "id": "04",
+          "title": "Chronic"
+        },
+        {
+          "id": "05",
+          "title": "LFO"
+        },
+        {
+          "id": "06",
+          "title": "Loading"
+        },
+        {
+          "id": "07",
+          "title": "Lusus"
+        },
+        {
+          "id": "08",
+          "title": "MaxV"
+        },
+        {
+          "id": "09",
+          "title": "MaxV"
+        },
+        {
+          "id": "10",
+          "title": "Trance"
+        },
+        {
+          "id": "11",
+          "title": "Riser"
+        },
+        {
+          "id": "12",
+          "title": "Noise"
+        },
+        {
+          "id": "13",
+          "title": "Sine"
+        },
+        {
+          "id": "14",
+          "title": "Riser2"
+        },
+        {
+          "id": "15",
+          "title": "Rumble"
+        },
+        {
+          "id": "16",
+          "title": "Shaker"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Heavy Impact",
+      "des": "Dubstep",
+      "items": [
+        {
+          "id": "01",
+          "title": "FX 1"
+        },
+        {
+          "id": "02",
+          "title": "FX 2"
+        },
+        {
+          "id": "03",
+          "title": "Growl 1"
+        },
+        {
+          "id": "04",
+          "title": "Growl 2"
+        },
+        {
+          "id": "05",
+          "title": "Gun"
+        },
+        {
+          "id": "06",
+          "title": "Gunshot"
+        },
+        {
+          "id": "07",
+          "title": "Hit"
+        },
+        {
+          "id": "08",
+          "title": "Current"
+        },
+        {
+          "id": "09",
+          "title": "Deep"
+        },
+        {
+          "id": "10",
+          "title": "GE"
+        },
+        {
+          "id": "11",
+          "title": "Layer"
+        },
+        {
+          "id": "12",
+          "title": "Layered"
+        },
+        {
+          "id": "13",
+          "title": "Digi"
+        },
+        {
+          "id": "14",
+          "title": "Shot"
+        },
+        {
+          "id": "15",
+          "title": "Soft"
+        },
+        {
+          "id": "16",
+          "title": "FX"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Trap FX Toolkit",
+      "des": "Trap",
+      "items": [
+        {
+          "id": "01",
+          "title": "Zap"
+        },
+        {
+          "id": "02",
+          "title": "Zap2"
+        },
+        {
+          "id": "03",
+          "title": "FX01"
+        },
+        {
+          "id": "04",
+          "title": "FX02"
+        },
+        {
+          "id": "05",
+          "title": "FX03"
+        },
+        {
+          "id": "06",
+          "title": "FX04"
+        },
+        {
+          "id": "07",
+          "title": "FX05"
+        },
+        {
+          "id": "08",
+          "title": "FX06"
+        },
+        {
+          "id": "09",
+          "title": "FX07"
+        },
+        {
+          "id": "10",
+          "title": "FX08"
+        },
+        {
+          "id": "11",
+          "title": "FX09"
+        },
+        {
+          "id": "12",
+          "title": "BassShot"
+        },
+        {
+          "id": "13",
+          "title": "Waka1"
+        },
+        {
+          "id": "14",
+          "title": "Waka2"
+        },
+        {
+          "id": "15",
+          "title": "Waka3"
+        },
+        {
+          "id": "16",
+          "title": "Waka4"
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "title": "LoFi Vocal Kit",
+      "des": "LoFi",
+      "items": [
+        {
+          "id": "01",
+          "title": "DrumC"
+        },
+        {
+          "id": "02",
+          "title": "Breath"
+        },
+        {
+          "id": "03",
+          "title": "Chant"
+        },
+        {
+          "id": "04",
+          "title": "Chant2"
+        },
+        {
+          "id": "05",
+          "title": "Impact1"
+        },
+        {
+          "id": "06",
+          "title": "Impact2"
+        },
+        {
+          "id": "07",
+          "title": "Impact3"
+        },
+        {
+          "id": "08",
+          "title": "Snare"
+        },
+        {
+          "id": "09",
+          "title": "Scratch"
+        },
+        {
+          "id": "10",
+          "title": "Chop"
+        },
+        {
+          "id": "11",
+          "title": "TV"
+        },
+        {
+          "id": "12",
+          "title": "FX1"
+        },
+        {
+          "id": "13",
+          "title": "FX2"
+        },
+        {
+          "id": "14",
+          "title": "FX3"
+        },
+        {
+          "id": "15",
+          "title": "Wind"
+        },
+        {
+          "id": "16",
+          "title": "HiHat"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Synth Lead Kit",
+      "des": "House",
+      "items": [
+        {
+          "id": "01",
+          "title": "Phat1"
+        },
+        {
+          "id": "02",
+          "title": "Phat2"
+        },
+        {
+          "id": "03",
+          "title": "Lead"
+        },
+        {
+          "id": "04",
+          "title": "Lead2"
+        },
+        {
+          "id": "05",
+          "title": "Lead3"
+        },
+        {
+          "id": "06",
+          "title": "Lead4"
+        },
+        {
+          "id": "07",
+          "title": "Lead5"
+        },
+        {
+          "id": "08",
+          "title": "Lead6"
+        },
+        {
+          "id": "09",
+          "title": "Bass"
+        },
+        {
+          "id": "10",
+          "title": "Chord"
+        },
+        {
+          "id": "11",
+          "title": "Bass"
+        },
+        {
+          "id": "12",
+          "title": "Shaker"
+        },
+        {
+          "id": "13",
+          "title": "Drum"
+        },
+        {
+          "id": "14",
+          "title": "Snare1"
+        },
+        {
+          "id": "15",
+          "title": "Snare2"
+        },
+        {
+          "id": "16",
+          "title": "Snare3"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "title": "Percussion Kit",
+      "des": "Latin",
+      "items": [
+        {
+          "id": "01",
+          "title": "Perc1"
+        },
+        {
+          "id": "02",
+          "title": "Perc Bell"
+        },
+        {
+          "id": "03",
+          "title": "Bongo1"
+        },
+        {
+          "id": "04",
+          "title": "Bongo2"
+        },
+        {
+          "id": "05",
+          "title": "Castanets"
+        },
+        {
+          "id": "06",
+          "title": "Drum1"
+        },
+        {
+          "id": "07",
+          "title": "Drum2"
+        },
+        {
+          "id": "08",
+          "title": "Drum3"
+        },
+        {
+          "id": "09",
+          "title": "Drum4"
+        },
+        {
+          "id": "10",
+          "title": "Drum5"
+        },
+        {
+          "id": "11",
+          "title": "Drum6"
+        },
+        {
+          "id": "12",
+          "title": "Drum7"
+        },
+        {
+          "id": "13",
+          "title": "Drum8"
+        },
+        {
+          "id": "14",
+          "title": "Drum9"
+        },
+        {
+          "id": "15",
+          "title": "Drum10"
+        },
+        {
+          "id": "16",
+          "title": "Drum11"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "title": "Drum Groove Kit",
+      "des": "House",
+      "items": [
+        {
+          "id": "01",
+          "title": "LEX Snare"
+        },
+        {
+          "id": "02",
+          "title": "Acoustic"
+        },
+        {
+          "id": "03",
+          "title": "Analog"
+        },
+        {
+          "id": "04",
+          "title": "Castanets"
+        },
+        {
+          "id": "05",
+          "title": "Metal1"
+        },
+        {
+          "id": "06",
+          "title": "Metal2"
+        },
+        {
+          "id": "07",
+          "title": "Clap"
+        },
+        {
+          "id": "08",
+          "title": "Clave"
+        },
+        {
+          "id": "09",
+          "title": "Rimshot"
+        },
+        {
+          "id": "10",
+          "title": "Rimshot2"
+        },
+        {
+          "id": "11",
+          "title": "Rimshot3"
+        },
+        {
+          "id": "12",
+          "title": "Timpani"
+        },
+        {
+          "id": "13",
+          "title": "Drum1"
+        },
+        {
+          "id": "14",
+          "title": "Drum2"
+        },
+        {
+          "id": "15",
+          "title": "Drum3"
+        },
+        {
+          "id": "16",
+          "title": "Drum4"
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Leviathan Synth",
+      "des": "Electro",
+      "items": [
+        {
+          "id": "01",
+          "title": "FX01"
+        },
+        {
+          "id": "02",
+          "title": "FX02"
+        },
+        {
+          "id": "03",
+          "title": "FX03"
+        },
+        {
+          "id": "04",
+          "title": "Bass"
+        },
+        {
+          "id": "05",
+          "title": "Lead01"
+        },
+        {
+          "id": "06",
+          "title": "Lead02"
+        },
+        {
+          "id": "07",
+          "title": "Lead03"
+        },
+        {
+          "id": "08",
+          "title": "Mover"
+        },
+        {
+          "id": "09",
+          "title": "Kick"
+        },
+        {
+          "id": "10",
+          "title": "Clap"
+        },
+        {
+          "id": "11",
+          "title": "Snare"
+        },
+        {
+          "id": "12",
+          "title": "Synth1"
+        },
+        {
+          "id": "13",
+          "title": "Synth2"
+        },
+        {
+          "id": "14",
+          "title": "Synth3"
+        },
+        {
+          "id": "15",
+          "title": "Synth4"
+        },
+        {
+          "id": "16",
+          "title": "Synth5"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Percussion Soundset",
+      "des": "Beat Drum",
+      "items": [
+        {
+          "id": "01",
+          "title": "Percs01"
+        },
+        {
+          "id": "02",
+          "title": "Percs02"
+        },
+        {
+          "id": "03",
+          "title": "Percs03"
+        },
+        {
+          "id": "04",
+          "title": "Percs04"
+        },
+        {
+          "id": "05",
+          "title": "Percs05"
+        },
+        {
+          "id": "06",
+          "title": "Percs06"
+        },
+        {
+          "id": "07",
+          "title": "Percs07"
+        },
+        {
+          "id": "08",
+          "title": "Percs08"
+        },
+        {
+          "id": "09",
+          "title": "Percs09"
+        },
+        {
+          "id": "10",
+          "title": "Percs10"
+        },
+        {
+          "id": "11",
+          "title": "Percs11"
+        },
+        {
+          "id": "12",
+          "title": "Percs12"
+        },
+        {
+          "id": "13",
+          "title": "Percs13"
+        },
+        {
+          "id": "14",
+          "title": "Percs14"
+        },
+        {
+          "id": "15",
+          "title": "Percs15"
+        },
+        {
+          "id": "16",
+          "title": "Percs16"
+        }
+      ]
+    }
+  ]
+}

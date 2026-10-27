@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/welcome_content"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/welcome_icon_size"
+                android:layout_height="@dimen/welcome_icon_size"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/welcome_icon"/>
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="@dimen/welcome_text_width"
+                android:layout_height="@dimen/welcome_text_height"
+                android:layout_marginTop="@dimen/welcome_text_margin_top"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/welcome_text"/>
+        </LinearLayout>
+        <FrameLayout
+            android:id="@+id/privacy_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_gravity="bottom|center_horizontal"
+        android:id="@+id/progress"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        app:lottie_autoPlay="true"
+        app:lottie_fileName="welcome_loading.json"
+        app:lottie_loop="true"/>
+</FrameLayout>

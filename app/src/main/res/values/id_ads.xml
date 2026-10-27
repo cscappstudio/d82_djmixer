@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <string name="app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="inter_splash_high" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="inter_splash" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="banner_splash" translatable="false">ca-app-pub-3940256099942544/2014213617</string>-->
+
+<!--    <string name="native_language_high" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_language" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_language_high_click" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_language_click" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+
+<!--    <string name="native_onboarding_1" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_onboarding_full_1" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_onboarding_full_2" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+<!--    <string name="native_onboarding_4" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+
+<!--    <string name="inter_all" translatable="false">ca-app-pub-3940256099942544/1033173712</string>-->
+<!--    <string name="reward_all" translatable="false">ca-app-pub-3940256099942544/5224354917</string>-->
+<!--    <string name="native_banner" translatable="false">ca-app-pub-3940256099942544/2247696110</string>-->
+
+<!--    <string name="resume_open_app" translatable="false">ca-app-pub-3940256099942544/9257395921</string>-->
+
+<!--    <string name="facebook_app_id" translatable="false">123</string>-->
+<!--    <string name="facebook_client_token" translatable="false">456</string>-->
+
+
+
+    <string name="app_id" translatable="false">ca-app-pub-9900730300733887~8156397934</string>
+    <string name="inter_splash_high" translatable="false">ca-app-pub-9900730300733887/1559199998</string>
+    <string name="inter_splash" translatable="false">ca-app-pub-9900730300733887/9876673710</string>
+    <string name="banner_splash" translatable="false">ca-app-pub-9900730300733887/1477852670</string>
+
+    <string name="native_language_high" translatable="false">ca-app-pub-9900730300733887/9844884121</string>
+    <string name="native_language" translatable="false">ca-app-pub-9900730300733887/7250510373</string>
+    <string name="native_language_high_click" translatable="false">ca-app-pub-9900730300733887/9277907918</string>
+    <string name="native_language_click" translatable="false">ca-app-pub-9900730300733887/8475962138</string>
+
+    <string name="native_onboarding_1" translatable="false">ca-app-pub-9900730300733887/6120427389</string>
+    <string name="native_onboarding_full_1" translatable="false">ca-app-pub-9900730300733887/7851689338</string>
+    <string name="native_onboarding_full_2" translatable="false">ca-app-pub-9900730300733887/2702470289</string>
+    <string name="native_onboarding_4" translatable="false">ca-app-pub-9900730300733887/9868100703</string>
+
+    <string name="reward_all" translatable="false">ca-app-pub-9900730300733887/7933036654</string>
+    <string name="inter_all" translatable="false">ca-app-pub-9900730300733887/3311265367</string>
+    <string name="native_banner" translatable="false">ca-app-pub-9900730300733887/9599885273</string>
+
+    <string name="resume_open_app" translatable="false">ca-app-pub-9900730300733887/5530234590</string>
+
+    <string name="facebook_app_id" translatable="false">1124194350372966</string>
+    <string name="facebook_client_token" translatable="false">d788653a6b89ae6c34febdabe09d5926</string>
+
+</resources>

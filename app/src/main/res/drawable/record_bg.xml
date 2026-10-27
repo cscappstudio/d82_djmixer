@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Border Layer (1px Linear Gradient) -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="270"
+                android:startColor="#3A435C"
+                android:endColor="#80222738" />
+            <corners android:radius="14dp" />
+        </shape>
+    </item>
+    <!-- Surface Fill Layer inset by 1dp on all sides -->
+    <item
+        android:bottom="1dp"
+        android:left="1dp"
+        android:right="1dp"
+        android:top="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#141726" />
+            <corners android:radius="13dp" />
+        </shape>
+    </item>
+</layer-list>

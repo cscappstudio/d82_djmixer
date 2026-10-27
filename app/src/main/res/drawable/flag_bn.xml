@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="30dp"
+    android:height="20dp"
+    android:viewportWidth="30"
+    android:viewportHeight="20">
+    <!-- Bottle Green Background -->
+    <path
+        android:fillColor="#006A4E"
+        android:pathData="M0,0h30v20h-30z"/>
+    <!-- Red Circle centered at (13.5, 10), radius 6.5 -->
+    <path
+        android:fillColor="#F42A41"
+        android:pathData="M13.5,3.5 A6.5,6.5 0 1,1 13.49,3.5 Z"/>
+</vector>

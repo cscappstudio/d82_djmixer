@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <!-- Card 1: Music + Play/Pause -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:background="@drawable/card_surface_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <com.ijoysoft.mix.view.ShineImageView
+            android:id="@+id/add_music"
+            android:layout_width="51dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:padding="7.5dp"
+            app:hideRectWhenNotShine="true"
+            app:shineImage="true"
+            app:shineRectDrawable="@drawable/shine_rect_add_music_left"
+            app:srcCompat="@drawable/vector_add_music"
+            app:tint="@color/theme_color_left" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#2E374D" />
+
+        <com.ijoysoft.mix.view.ShineImageView
+            android:id="@+id/play_pause"
+            android:layout_width="51dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:padding="7.5dp"
+            app:hideRectWhenNotShine="true"
+            app:shineImage="true"
+            app:shineRectDrawable="@drawable/shine_rect_add_music_left_2"
+            app:srcCompat="@drawable/vector_music_play_pause_selector"
+            app:tint="@color/play_pause_tint_selector_left" />
+    </LinearLayout>
+
+    <!-- Card 2: SET + CUE -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="34dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/card_surface_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/set_cues"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="@string/set"
+            android:textAlignment="center"
+            android:textColor="@color/primary_color"
+            android:textSize="11sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#2E374D" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/call_cues"
+            android:layout_width="57dp"
+            android:layout_height="match_parent"
+            android:background="?attr/selectableItemBackground"
+            android:padding="7dp"
+            app:srcCompat="@drawable/vector_call_cues_selector_left" />
+    </LinearLayout>
+
+    <!-- Card 3: RESET -->
+    <TextView
+        android:id="@+id/reset"
+        android:layout_width="66dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/bottom_btn_bg_reset_selector_left"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/reset_2"
+        android:textAlignment="center"
+        android:textColor="@color/reset_btn_text_color_selector_left"
+        android:textSize="10sp" />
+
+</LinearLayout>

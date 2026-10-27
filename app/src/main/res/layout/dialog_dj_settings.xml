@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_dialog_round"
+    android:padding="20dp"
+    android:layout_width="480dp"
+    android:layout_height="wrap_content">
+
+    <!-- Header -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/vector_setting"
+            app:tint="@color/theme_color" />
+
+        <TextView
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginStart="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/dj_settings_title" />
+
+        <ImageView
+            android:id="@+id/btn_close_settings"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:padding="4dp"
+            android:src="@drawable/vector_ds_cancel"
+            android:background="?attr/selectableItemBackgroundBorderless" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="320dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Pitch Slider Range -->
+            <TextView
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/theme_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pitch_slider_range" />
+
+            <RadioGroup
+                android:id="@+id/rg_pitch_range"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_pitch_4"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="±4%" />
+
+                <RadioButton
+                    android:id="@+id/rb_pitch_8"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="±8%" />
+
+                <RadioButton
+                    android:id="@+id/rb_pitch_16"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="±16%" />
+
+                <RadioButton
+                    android:id="@+id/rb_pitch_32"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="±32%" />
+
+                <RadioButton
+                    android:id="@+id/rb_pitch_50"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="±50%" />
+            </RadioGroup>
+
+            <!-- Crossfader Curve -->
+            <TextView
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/theme_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/crossfader_curve" />
+
+            <RadioGroup
+                android:id="@+id/rg_crossfader_curve"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_curve_smooth"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/curve_smooth" />
+
+                <RadioButton
+                    android:id="@+id/rb_curve_linear"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/curve_linear" />
+
+                <RadioButton
+                    android:id="@+id/rb_curve_cut"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/curve_fast_cut" />
+            </RadioGroup>
+
+            <!-- Vinyl Scratch Sound -->
+            <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp">
+
+                <TextView
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/vinyl_scratch_sound_fx" />
+
+                <androidx.appcompat.widget.SwitchCompat
+                    android:id="@+id/sw_scratch_sound"
+                    android:checked="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- Time Display Mode -->
+            <TextView
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/theme_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/time_display_mode" />
+
+            <RadioGroup
+                android:id="@+id/rg_time_mode"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_time_elapsed"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/time_mode_elapsed" />
+
+                <RadioButton
+                    android:id="@+id/rb_time_remaining"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/time_mode_remaining" />
+
+                <RadioButton
+                    android:id="@+id/rb_time_total"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/time_mode_both" />
+            </RadioGroup>
+
+            <!-- Recording Quality -->
+            <TextView
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/theme_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recording_audio_format" />
+
+            <RadioGroup
+                android:id="@+id/rg_rec_format"
+                android:orientation="horizontal"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rb_rec_wav"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:checked="true"
+                    android:text="@string/format_wav" />
+
+                <RadioButton
+                    android:id="@+id/rb_rec_mp3"
+                    android:textSize="12sp"
+                    android:textColor="@color/white"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/format_mp3" />
+            </RadioGroup>
+
+            <!-- App Language -->
+            <TextView
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/theme_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="@string/language" />
+
+            <LinearLayout
+                android:id="@+id/btn_change_language"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginBottom="6dp"
+                android:paddingStart="14dp"
+                android:paddingEnd="14dp"
+                android:background="@drawable/bg_dialog_recording_input"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_language"
+                    app:tint="@color/theme_color" />
+
+                <TextView
+                    android:id="@+id/txt_current_language"
+                    android:textSize="13sp"
+                    android:textColor="@color/white"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="English" />
+
+                <ImageView
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/vector_arrow_right"
+                    app:tint="#64748B" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

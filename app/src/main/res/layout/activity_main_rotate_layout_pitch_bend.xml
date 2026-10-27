@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:splitMotionEvents="false">
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/pitch_bend_reduce"
+        android:padding="@dimen/pitch_bend_btn_padding"
+        android:layout_width="@dimen/pitch_bend_btn_size"
+        android:layout_height="@dimen/pitch_bend_btn_size"
+        android:layout_marginTop="@dimen/pitch_bend_btn_size"
+        android:scaleType="fitCenter"
+        android:layout_marginEnd="@dimen/pitch_bend_spacing"
+        app:srcCompat="@drawable/vector_pitch_bend_reduce"
+        app:tint="@color/pitch_bend_color_selector_left"/>
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/pitch_bend_add"
+        android:padding="@dimen/pitch_bend_btn_padding"
+        android:layout_width="@dimen/pitch_bend_btn_size"
+        android:layout_height="@dimen/pitch_bend_btn_size"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/vector_pitch_bend_add"
+        app:tint="@color/pitch_bend_color_selector_left"/>
+</LinearLayout>

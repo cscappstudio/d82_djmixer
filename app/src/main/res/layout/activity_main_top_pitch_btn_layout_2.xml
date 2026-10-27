@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_music"
+        android:layout_width="44dp"
+        android:layout_height="22dp"
+        android:background="@drawable/pitch_btn_music_selector_left"
+        android:padding="3dp"
+        app:srcCompat="@drawable/vector_music_symbol"
+        app:tint="@color/theme_color_left" />
+
+    <TextView
+        android:id="@+id/btn_reset"
+        android:layout_width="44dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/pitch_bg_reset_selector_left"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/reset_2"
+        android:textAlignment="center"
+        android:textColor="#94A3B8"
+        android:textSize="8.5sp" />
+
+</LinearLayout>

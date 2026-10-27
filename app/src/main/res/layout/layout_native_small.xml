@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Shimmer View: visible while loading -->
+    <com.facebook.shimmer.ShimmerFrameLayout
+        android:id="@+id/shimmer_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:shimmer_auto_start="true">
+
+        <include layout="@layout/ads_shimmer_native_small" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+
+    <!-- Native Ad View: made visible by NativeAdRenderer on load -->
+    <com.google.android.libraries.ads.mobile.sdk.nativead.NativeAdView
+        android:id="@+id/native_ad_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/ad_content_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_card_social"
+            android:padding="8dp"
+            android:visibility="gone">
+
+            <!-- MediaView Thumbnail on Left -->
+            <androidx.cardview.widget.CardView
+                android:id="@+id/mediaCardView"
+                android:layout_width="110dp"
+                android:layout_height="100dp"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="0dp"
+                app:cardBackgroundColor="@color/transparent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <com.google.android.libraries.ads.mobile.sdk.nativead.MediaView
+                    android:id="@+id/media_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </androidx.cardview.widget.CardView>
+
+            <!-- Top Row: Icon + Ad Badge + Headline -->
+            <LinearLayout
+                android:id="@+id/top_row"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/mediaCardView"
+                app:layout_constraintTop_toTopOf="@+id/mediaCardView">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/imvCardView"
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_marginEnd="6dp"
+                    app:cardCornerRadius="4dp"
+                    app:cardElevation="0dp"
+                    app:cardBackgroundColor="@color/transparent">
+
+                    <ImageView
+                        android:id="@+id/ad_app_icon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:contentDescription="@null" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/ad_notification_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_ad_badge"
+                    android:gravity="center"
+                    android:paddingHorizontal="4dp"
+                    android:paddingVertical="1dp"
+                    android:text="Ad"
+                    android:textColor="@color/app_main"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/ad_headline"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    tools:text="App Title" />
+            </LinearLayout>
+
+            <!-- Ad Body / Description -->
+            <TextView
+                android:id="@+id/ad_body"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="4dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="#8E95A5"
+                android:textSize="11sp"
+                app:layout_constraintBottom_toTopOf="@+id/ad_call_to_action"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/mediaCardView"
+                app:layout_constraintTop_toBottomOf="@+id/top_row"
+                app:layout_constraintVertical_bias="0.0"
+                tools:text="Short description of the app or sponsor." />
+
+            <!-- Call To Action Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/ad_call_to_action"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_button_ads"
+                android:elevation="0dp"
+                android:gravity="center"
+                android:stateListAnimator="@null"
+                android:text="Install"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/mediaCardView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/mediaCardView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.google.android.libraries.ads.mobile.sdk.nativead.NativeAdView>
+
+</FrameLayout>

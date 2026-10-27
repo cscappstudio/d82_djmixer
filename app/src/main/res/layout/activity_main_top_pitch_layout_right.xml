@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layout_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            layout="@layout/activity_main_top_pitch_bpm_setting" />
+
+        <include layout="@layout/activity_main_top_pitch_btn_layout" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/top_layout_bg_color"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <include
+            android:layout_width="0dp"
+            android:layout_height="@dimen/pitch_seekbar_height"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="9dp"
+            android:layout_weight="1"
+            layout="@layout/activity_main_top_pitch_layout_seekbar" />
+
+        <include layout="@layout/activity_main_top_pitch_btn_layout_2" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="7dp"
+            android:layout_marginEnd="7dp"
+            android:background="#2E374D" />
+
+        <include layout="@layout/activity_main_top_pitch_btn_layout_1" />
+    </LinearLayout>
+
+</FrameLayout>

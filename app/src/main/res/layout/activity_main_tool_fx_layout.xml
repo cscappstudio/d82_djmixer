@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/bass_layout_padding_h"
+    android:paddingTop="@dimen/bass_layout_padding_v"
+    android:paddingRight="@dimen/bass_layout_padding_h"
+    android:paddingBottom="@dimen/bass_layout_padding_v"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/bass_layout_margin_h"
+    android:layout_marginRight="@dimen/bass_layout_margin_h"
+    android:layout_marginHorizontal="@dimen/bass_layout_margin_h"
+    android:paddingHorizontal="@dimen/bass_layout_padding_h"
+    android:paddingVertical="@dimen/bass_layout_padding_v">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.ijoysoft.music.view.square.SquareFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <com.ijoysoft.music.view.RotateStepBar
+                android:id="@+id/rotate_step_bar_bass"
+                app:rotateStepPlugPadding="@dimen/fx_rotate_bar_plug_padding_bass"
+                app:rotateStepProgressWidth="@dimen/fx_rotate_bar_progress_width_bass"
+                style="@style/FXRotateStepBarStyle"/>
+        </com.ijoysoft.music.view.square.SquareFrameLayout>
+        <TextView
+            android:textSize="@dimen/fx_rotate_bar_text_size_bass"
+            android:layout_marginTop="@dimen/fx_rotate_bar_margin_text_margin_bass"
+            android:text="@string/bass_boost"
+            android:fontFamily="sans-serif-medium"
+            style="@style/FXRotateStepBarTextStyle"/>
+    </LinearLayout>
+</LinearLayout>

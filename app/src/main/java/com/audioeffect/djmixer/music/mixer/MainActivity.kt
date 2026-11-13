@@ -414,6 +414,23 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    override fun onPause() {
+        super.onPause()
+        if (isPlayingA) {
+            toggleDeckA()
+        }
+        if (isPlayingB) {
+            toggleDeckB()
+        }
+        stopScratchStream(1)
+        stopScratchStream(2)
+        for (ch in samplerChannelMap.values) {
+            if (ch != 0) {
+                BASS.BASS_ChannelPause(ch)
+            }
+        }
+    }
+
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         super.onWindowFocusChanged(hasFocus)
         if (hasFocus) {
